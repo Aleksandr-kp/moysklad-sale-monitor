@@ -75,12 +75,8 @@ def get_categories() -> list[dict]:
 
 def _normalize_confusables(s: str) -> str:
     """
-    Частая проблема: в названии категории могут оказаться латинские буквы,
-    визуально похожие на кириллицу (пример: "Рacпродажа").
-    Тогда поиск по "распродажа" не срабатывает.
-
-    Здесь заменяем похожие латинские буквы на кириллицу:
-    a->а, c->с, e->е, o->о, p->р, x->х, y->у, k->к, m->м, t->т, b->в
+    Иногда названия содержат латинские буквы, похожие на кириллицу (пример: "Рacпродажа").
+    Чтобы фильтр по "распродажа" работал стабильно — заменяем похожие латинские буквы.
     """
     mapping = str.maketrans({
         "a": "а", "c": "с", "e": "е", "o": "о", "p": "р", "x": "х", "y": "у",
@@ -101,9 +97,16 @@ def find_sale_tobacco_categories(categories: list[dict]) -> list[dict]:
     return result
 
 
-def fetch_products_page(category_id: str, limit: int, offset: int) -> dict | list:
+def fetch_products_page(category_id: str, category_name: str, limit: int, offset: int) -> dict | list:
+    """
+    ВАЖНО: на твоём портале products.json отдаёт товары корректно, когда переданы:
+    - category_id
+    - category (строкой, названием категории)
+    Это видно из твоего рабочего curl.
+    """
     url = f"{BASE}/{SHOP_TOKEN}/products.json"
     params = {
+        "category": category_name,      # <-- критично
         "category_id": category_id,
         "limit": limit,
         "offset": offset,
@@ -114,13 +117,13 @@ def fetch_products_page(category_id: str, limit: int, offset: int) -> dict | lis
     return r.json()
 
 
-def iter_products(category_id: str) -> list[dict]:
+def iter_products(category_id: str, category_name: str) -> list[dict]:
     limit = 100
     offset = 0
     all_rows: list[dict] = []
 
     while True:
-        data = fetch_products_page(category_id, limit, offset)
+        data = fetch_products_page(category_id, category_name, limit, offset)
 
         if isinstance(data, dict):
             rows = data.get("rows") or data.get("items") or data.get("data") or []
@@ -145,10 +148,6 @@ def iter_products(category_id: str) -> list[dict]:
 
 
 def parse_price_to_rub(p: dict) -> float | None:
-    """
-    Приводим цену к рублям (float).
-    Обычно цена приходит в копейках (>= 1000), тогда /100.
-    """
     candidates = []
 
     if "price" in p:
@@ -175,6 +174,7 @@ def parse_price_to_rub(p: dict) -> float | None:
     except Exception:
         return None
 
+    # эвристика: если >= 1000 — почти наверняка копейки
     if v >= 1000:
         return round(v / 100.0, 2)
     return round(v, 2)
@@ -198,15 +198,10 @@ def normalize_product(p: dict, category_name: str) -> dict | None:
 
 # ====== TIME RULES ======
 def is_work_time(now: datetime) -> bool:
-    # 08:00–17:59
     return WORK_START_HOUR <= now.hour < WORK_END_HOUR
 
 
 def maybe_heartbeat(state: dict, now: datetime) -> None:
-    """
-    Утренний сигнал "я живой".
-    Окно 08:00–08:29, чтобы не зависеть от точности cron.
-    """
     today = now.date().isoformat()
     if now.hour == WORK_START_HOUR and now.minute < 30:
         if state.get("last_heartbeat_date") != today:
@@ -286,12 +281,12 @@ def main() -> None:
     # 1) Утренний "я живой"
     maybe_heartbeat(state, now)
 
-    # 2) Если не рабочее время — выходим (heartbeat мог отправиться)
+    # 2) Если не рабочее время — выходим
     if not is_work_time(now):
         save_state(state)
         return
 
-    # 3) Берём категории и ищем "распродажа + табак"
+    # 3) Категории -> фильтр
     categories = get_categories()
     target_cats = find_sale_tobacco_categories(categories)
 
@@ -300,7 +295,7 @@ def main() -> None:
         save_state(state)
         return
 
-    # 4) Собираем товары по всем найденным категориям
+    # 4) Товары по категориям
     current: dict[str, dict] = {}
     cat_to_products: dict[str, list[dict]] = {}
 
@@ -310,7 +305,7 @@ def main() -> None:
         if not cid or not cname:
             continue
 
-        raw = iter_products(cid)
+        raw = iter_products(cid, cname)
         normed = []
         for p in raw:
             n = normalize_product(p, cname)
@@ -325,7 +320,7 @@ def main() -> None:
         normed.sort(key=lambda x: x["name"].lower())
         cat_to_products[cname] = normed
 
-    # 5) Первый запуск — отправим полный список
+    # 5) Первый запуск — полный список
     if not state.get("initialized"):
         send_full_list(cat_to_products)
         state["initialized"] = True
@@ -333,6 +328,7 @@ def main() -> None:
         save_state(state)
         return
 
+    # 6) Изменения
     prev: dict[str, dict] = state.get("products", {})
 
     added: list[dict] = []
