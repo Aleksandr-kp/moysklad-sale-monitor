@@ -1,0 +1,196 @@
+{
+  "initialized": true,
+  "products": {
+    "39cb2abf-b928-11ef-0a80-14330006e3cd": {
+      "name": "Chabacco Mix - Апельсиновое драже, 200 гр (м)",
+      "price_rub": 750.0,
+      "category": "Рacпродажа. Табак для кальяна (1)"
+    },
+    "57b576e4-4d19-11f0-0a80-15d60011fe6f": {
+      "name": "JENT - Blue Hawaii (Голубые Гавайи), 200 гр (м)",
+      "price_rub": 10.7,
+      "category": "Рacпродажа. Табак для кальяна (1)"
+    },
+    "b20a79a9-5c06-11f0-0a80-15320049dad6": {
+      "name": "JENT - Cookie Bush (Печенье с ревнем), 200 гр (м)",
+      "price_rub": 10.7,
+      "category": "Рacпродажа. Табак для кальяна (1)"
+    },
+    "bac694a4-951e-11ef-0a80-077f003e2273": {
+      "name": "Satyr - Bom - Byao (Виноградная Газировка), 100 гр (м)",
+      "price_rub": 700.0,
+      "category": "Рacпродажа. Табак для кальяна (1)"
+    },
+    "134f3992-660d-11f0-0a80-02980029ac3f": {
+      "name": "Satyr - Ice Grape (Ледяной Виноград), 100 гр (м)",
+      "price_rub": 700.0,
+      "category": "Рacпродажа. Табак для кальяна (1)"
+    },
+    "9ab0e9c5-660f-11f0-0a80-0869002a0d18": {
+      "name": "Satyr - Балалайка, 100 гр (м)",
+      "price_rub": 700.0,
+      "category": "Рacпродажа. Табак для кальяна (1)"
+    },
+    "c31a7567-660f-11f0-0a80-0d8900299b79": {
+      "name": "Satyr - Бесприданница, 100 гр (м)",
+      "price_rub": 700.0,
+      "category": "Рacпродажа. Табак для кальяна (1)"
+    },
+    "23cd6c16-72c3-11f0-0a80-040f00102dcd": {
+      "name": "Satyr - Жар - Птица (Ирийские Леденцы), 100 гр (м)",
+      "price_rub": 700.0,
+      "category": "Рacпродажа. Табак для кальяна (1)"
+    },
+    "6735049a-72c3-11f0-0a80-11b2000fe88f": {
+      "name": "Satyr - Кощей (Старицкая Земляника), 100 гр (м)",
+      "price_rub": 700.0,
+      "category": "Рacпродажа. Табак для кальяна (1)"
+    },
+    "ea79a973-660f-11f0-0a80-0e40002bd876": {
+      "name": "Satyr - Нежность, 100 гр (м)",
+      "price_rub": 700.0,
+      "category": "Рacпродажа. Табак для кальяна (1)"
+    },
+    "a6ac8836-749f-11ee-0a80-01640034ecde": {
+      "name": "Sebero Classic - Halloween (Тыква), 200 гр (м)",
+      "price_rub": 10.1,
+      "category": "Рacпродажа. Табак для кальяна (1)"
+    },
+    "52fc07f9-d5df-11ec-0a80-0bfd000e07b4": {
+      "name": "Spectrum Hard - Gold kiwi (Киви), 200 гр (м)",
+      "price_rub": 10.3,
+      "category": "Рacпродажа. Табак для кальяна (1)"
+    },
+    "ca25758e-9e2d-11ed-0a80-0c56000d391f": {
+      "name": "Spectrum Hard - Passion fruit (Маракуйя), 200 гр (м)",
+      "price_rub": 10.3,
+      "category": "Рacпродажа. Табак для кальяна (1)"
+    },
+    "4da936a7-89d8-11ee-0a80-0ecc00221b18": {
+      "name": "JENT - Aloha Corn (Китайский ананас и кукуруза), 25 гр (м) !",
+      "price_rub": 160.0,
+      "category": "Рacпродажа. Табак для кальяна (2)"
+    },
+    "095385ea-4d19-11f0-0a80-18880012ba4e": {
+      "name": "JENT - Blue Hawaii (Голубые Гавайи), 25 гр (м)",
+      "price_rub": 160.0,
+      "category": "Рacпродажа. Табак для кальяна (2)"
+    },
+    "d061d90a-89d8-11ee-0a80-0b2d0022a619": {
+      "name": "JENT - Pure Love (Белая роза и манго), 25 гр (м)",
+      "price_rub": 160.0,
+      "category": "Рacпродажа. Табак для кальяна (2)"
+    },
+    "06703614-9894-11ec-0a80-099a0032657b": {
+      "name": "Satyr - Black currant (Черная Смородина), 25 гр (м)",
+      "price_rub": 185.0,
+      "category": "Рacпродажа. Табак для кальяна (2)"
+    },
+    "f276686a-5c05-11f0-0a80-0ccf004843d2": {
+      "name": "Sebero Black - Cinnabun (Булочка с корицей), 25 гр (м)",
+      "price_rub": 160.0,
+      "category": "Рacпродажа. Табак для кальяна (2)"
+    },
+    "13aef444-ceff-11ed-0a80-0e0700118dac": {
+      "name": "Sebero Black - Garnet (Гранат), 25 гр (м) !",
+      "price_rub": 160.0,
+      "category": "Рacпродажа. Табак для кальяна (2)"
+    },
+    "048b0c97-1f31-11ee-0a80-00440038ca8b": {
+      "name": "Sebero Black - Lemon Candy (Лимонные леденцы), 25 гр (м)",
+      "price_rub": 160.0,
+      "category": "Рacпродажа. Табак для кальяна (2)"
+    },
+    "165c47c4-4d1c-11f0-0a80-0def00134da8": {
+      "name": "Sebero Classic - Pudding (Пудинг), 25 гр (м)",
+      "price_rub": 155.0,
+      "category": "Рacпродажа. Табак для кальяна (2)"
+    },
+    "1a46799b-cd7a-11ed-0a80-0ffc0014ce8a": {
+      "name": "Spectrum Hard - Fire wine (Пряное вино), 25 гр (м) !",
+      "price_rub": 160.0,
+      "category": "Рacпродажа. Табак для кальяна (2)"
+    },
+    "990f35fc-0317-11f0-0a80-1646002e2f8d": {
+      "name": "Жевательный табак Fjord Limited - Mint, 13 гр (м)",
+      "price_rub": 100.0,
+      "category": "Распродажа. Жевательный табак"
+    },
+    "80a181cc-f808-11ef-0a80-0e230019f3ed": {
+      "name": "Жевательный табак Fjord - White Dry, 13 гр (м)",
+      "price_rub": 100.0,
+      "category": "Распродажа. Жевательный табак"
+    },
+    "e61404fe-79a2-11f0-0a80-1b0500187d66": {
+      "name": "Жевательный табак LIT mini Strong Slim - Power mint, 6,5 гр (м)",
+      "price_rub": 80.0,
+      "category": "Распродажа. Жевательный табак"
+    },
+    "a496d40d-6c70-11f0-0a80-1598000ed640": {
+      "name": "Жевательный табак ORN Medium Slim - Cold Dry, 12 гр (м)",
+      "price_rub": 100.0,
+      "category": "Распродажа. Жевательный табак"
+    },
+    "a6abef6d-6c70-11f0-0a80-01b6000e3a99": {
+      "name": "Жевательный табак ORN Medium Slim - Menthol, 12 гр (м)",
+      "price_rub": 100.0,
+      "category": "Распродажа. Жевательный табак"
+    },
+    "6b7cca16-6c71-11f0-0a80-1995000f31d5": {
+      "name": "Жевательный табак ORN Mini Exstra Strong - Coffee, 6 гр (м)",
+      "price_rub": 80.0,
+      "category": "Распродажа. Жевательный табак"
+    },
+    "6033d444-6c71-11f0-0a80-0fb8000efb35": {
+      "name": "Жевательный табак ORN Mini Strong Slim - Ice Mint, 6 гр (м)",
+      "price_rub": 80.0,
+      "category": "Распродажа. Жевательный табак"
+    },
+    "95a584dd-6c70-11f0-0a80-0620000eba0e": {
+      "name": "Жевательный табак ORN Strong Slim - Cold Dry, 12 гр (м)",
+      "price_rub": 100.0,
+      "category": "Распродажа. Жевательный табак"
+    },
+    "0bd4de83-f8ff-11ef-0a80-019a001216a2": {
+      "name": "Жевательный табак Trava - Menthol, 9 гр (м)",
+      "price_rub": 100.0,
+      "category": "Распродажа. Жевательный табак"
+    },
+    "955a555a-f8fe-11ef-0a80-15bc0011b959": {
+      "name": "Жевательный табак Trava Strong - Menthol, 9 гр (м)",
+      "price_rub": 100.0,
+      "category": "Распродажа. Жевательный табак"
+    },
+    "935ffda7-f8fe-11ef-0a80-02e400115477": {
+      "name": "Жевательный табак Trava Strong Slim - Peppermint, 9 гр (м)",
+      "price_rub": 100.0,
+      "category": "Распродажа. Жевательный табак"
+    },
+    "10e37669-6c6f-11f0-0a80-00c2000e1e8b": {
+      "name": "Жевательный табак Volt Medium Classic - Ice slim, 9,5 гр (м)",
+      "price_rub": 80.0,
+      "category": "Распродажа. Жевательный табак"
+    },
+    "0808f4e5-6c6f-11f0-0a80-1876000e2e09": {
+      "name": "Жевательный табак Volt Medium Slim - Cold Dry, 9,5 гр (м)",
+      "price_rub": 80.0,
+      "category": "Распродажа. Жевательный табак"
+    },
+    "e7dc9398-6c6f-11f0-0a80-0cb1000e16a9": {
+      "name": "Жевательный табак Volt Mini - Eucalyptus Hyper Slim, 5,5 гр (м)",
+      "price_rub": 80.0,
+      "category": "Распродажа. Жевательный табак"
+    },
+    "0813c3fd-6c70-11f0-0a80-00c2000e6945": {
+      "name": "Жевательный табак Volt Mini - Polar mint Hyper Slim, 5,5 гр (м)",
+      "price_rub": 80.0,
+      "category": "Распродажа. Жевательный табак"
+    },
+    "dbf631ae-6c6e-11f0-0a80-1a2a000e568f": {
+      "name": "Жевательный табак Volt Strong Classic - White Dry, 9,5 гр (м)",
+      "price_rub": 80.0,
+      "category": "Распродажа. Жевательный табак"
+    }
+  },
+  "last_heartbeat_date": null
+}
