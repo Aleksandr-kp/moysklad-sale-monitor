@@ -22,7 +22,7 @@ KW2 = "табак"
 
 WORK_START_HOUR = 8   # 08:00 МСК
 WORK_END_HOUR = 18    # до 18:00 МСК (не включая 18:00)
-CHECK_SLEEP = 0.15    # пауза между страницами пагинации, чтобы не спамить API
+CHECK_SLEEP = 0.15    # пауза между страницами пагинации
 
 
 # ====== TELEGRAM ======
@@ -66,21 +66,37 @@ def get_categories() -> list[dict]:
     r = requests.get(url, headers={"accept": "application/json"}, timeout=30)
     r.raise_for_status()
     data = r.json()
-    # categories.json обычно список
     if isinstance(data, list):
         return data
-    # на всякий случай поддержим варианты
     if isinstance(data, dict) and isinstance(data.get("rows"), list):
         return data["rows"]
     return []
+
+
+def _normalize_confusables(s: str) -> str:
+    """
+    Частая проблема: в названии категории могут оказаться латинские буквы,
+    визуально похожие на кириллицу (пример: "Рacпродажа").
+    Тогда поиск по "распродажа" не срабатывает.
+
+    Здесь заменяем похожие латинские буквы на кириллицу:
+    a->а, c->с, e->е, o->о, p->р, x->х, y->у, k->к, m->м, t->т, b->в
+    """
+    mapping = str.maketrans({
+        "a": "а", "c": "с", "e": "е", "o": "о", "p": "р", "x": "х", "y": "у",
+        "k": "к", "m": "м", "t": "т", "b": "в",
+        "A": "А", "C": "С", "E": "Е", "O": "О", "P": "Р", "X": "Х", "Y": "У",
+        "K": "К", "M": "М", "T": "Т", "B": "В",
+    })
+    return s.translate(mapping)
 
 
 def find_sale_tobacco_categories(categories: list[dict]) -> list[dict]:
     result = []
     for c in categories:
         name = str(c.get("name", "")).strip()
-        low = name.lower()
-        if KW1 in low and KW2 in low:
+        normalized = _normalize_confusables(name).lower()
+        if KW1 in normalized and KW2 in normalized:
             result.append(c)
     return result
 
@@ -116,7 +132,6 @@ def iter_products(category_id: str) -> list[dict]:
         if not rows:
             break
 
-        # гарантируем dict-элементы
         rows = [x for x in rows if isinstance(x, dict)]
         all_rows.extend(rows)
 
@@ -131,15 +146,8 @@ def iter_products(category_id: str) -> list[dict]:
 
 def parse_price_to_rub(p: dict) -> float | None:
     """
-    Ставит цель получить "цену в рублях" как число.
-    В B2B API цена может быть:
-    - price: {value: 15000}  (копейки)
-    - price: 15000          (копейки)
-    - retail_price: 15000   (копейки)
-    - или иногда сразу рубли (редко) — тогда будет похоже на 150.0/150
-    Мы нормализуем так:
-      если число >= 1000 => считаем "копейки" и делим на 100
-      иначе считаем "рубли"
+    Приводим цену к рублям (float).
+    Обычно цена приходит в копейках (>= 1000), тогда /100.
     """
     candidates = []
 
@@ -167,7 +175,6 @@ def parse_price_to_rub(p: dict) -> float | None:
     except Exception:
         return None
 
-    # эвристика: >= 1000 — почти всегда копейки
     if v >= 1000:
         return round(v / 100.0, 2)
     return round(v, 2)
@@ -198,7 +205,7 @@ def is_work_time(now: datetime) -> bool:
 def maybe_heartbeat(state: dict, now: datetime) -> None:
     """
     Утренний сигнал "я живой".
-    Делаем окно 08:00–08:29, чтобы не зависеть от точности cron.
+    Окно 08:00–08:29, чтобы не зависеть от точности cron.
     """
     today = now.date().isoformat()
     if now.hour == WORK_START_HOUR and now.minute < 30:
@@ -211,15 +218,11 @@ def maybe_heartbeat(state: dict, now: datetime) -> None:
 def fmt_money(price_rub: float | None) -> str:
     if price_rub is None:
         return "цена не найдена"
-    # формируем красиво: 1234.5 -> "1 234.50 ₽"
-    s = f"{price_rub:,.2f}".replace(",", " ").replace(".00", ".00")
+    s = f"{price_rub:,.2f}".replace(",", " ")
     return f"{s} ₽"
 
 
 def chunk_lines(lines: list[str], max_chars: int = 3500) -> list[str]:
-    """
-    Telegram лимит 4096, оставим запас.
-    """
     chunks = []
     cur = []
     cur_len = 0
@@ -283,7 +286,7 @@ def main() -> None:
     # 1) Утренний "я живой"
     maybe_heartbeat(state, now)
 
-    # 2) Если не рабочее время — только сохраним state (на случай heartbeat) и выйдем
+    # 2) Если не рабочее время — выходим (heartbeat мог отправиться)
     if not is_work_time(now):
         save_state(state)
         return
@@ -319,7 +322,6 @@ def main() -> None:
                     "category": n["category"],
                 }
 
-        # сортируем для красивого вывода
         normed.sort(key=lambda x: x["name"].lower())
         cat_to_products[cname] = normed
 
@@ -336,7 +338,6 @@ def main() -> None:
     added: list[dict] = []
     changed: list[tuple[dict, dict]] = []
 
-    # новые и изменившиеся
     for pid, cur in current.items():
         if pid not in prev:
             added.append(cur)
@@ -345,13 +346,10 @@ def main() -> None:
             if old.get("price_rub") != cur.get("price_rub"):
                 changed.append((old, cur))
 
-    # обновляем состояние
     state["products"] = current
     save_state(state)
 
-    # отправляем только если есть изменения
     if added or changed:
-        # чтобы сообщения были стабильнее по виду
         added.sort(key=lambda x: x["name"].lower())
         changed.sort(key=lambda pair: pair[1]["name"].lower())
         send_changes(added, changed)
