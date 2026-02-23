@@ -15,14 +15,24 @@ SHOP_TOKEN = os.getenv("MOYSKLAD_SHOP_TOKEN", "rqCe1pSHFAhL")
 TG_TOKEN = os.getenv("TELEGRAM_BOT_TOKEN")
 TG_CHAT_ID = os.getenv("TELEGRAM_CHAT_ID")
 
+# ВАЖНО: cookie с портала (GitHub Secret)
+MOYSKLAD_COOKIE = os.getenv("MOYSKLAD_COOKIE", "").strip()
+
 STATE_FILE = "state.json"
 
 KW1 = "распродажа"
 KW2 = "табак"
 
-WORK_START_HOUR = 8   # 08:00 МСК
-WORK_END_HOUR = 18    # до 18:00 МСК (не включая 18:00)
-CHECK_SLEEP = 0.15    # пауза между страницами пагинации
+WORK_START_HOUR = 8
+WORK_END_HOUR = 18
+CHECK_SLEEP = 0.15
+
+UA = (
+    "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
+    "AppleWebKit/537.36 (KHTML, like Gecko) "
+    "Chrome/120.0.0.0 Safari/537.36"
+)
+REFERER = f"https://b2b.moysklad.ru/{SHOP_TOKEN}/catalog"
 
 
 # ====== TELEGRAM ======
@@ -33,11 +43,7 @@ def tg_send(text: str) -> None:
     url = f"https://api.telegram.org/bot{TG_TOKEN}/sendMessage"
     resp = requests.post(
         url,
-        json={
-            "chat_id": TG_CHAT_ID,
-            "text": text,
-            "disable_web_page_preview": True,
-        },
+        json={"chat_id": TG_CHAT_ID, "text": text, "disable_web_page_preview": True},
         timeout=30,
     )
     resp.raise_for_status()
@@ -46,11 +52,7 @@ def tg_send(text: str) -> None:
 # ====== STATE ======
 def load_state() -> dict:
     if not os.path.exists(STATE_FILE):
-        return {
-            "initialized": False,
-            "products": {},               # pid -> {name, price_rub, category}
-            "last_heartbeat_date": None,  # "YYYY-MM-DD"
-        }
+        return {"initialized": False, "products": {}, "last_heartbeat_date": None}
     with open(STATE_FILE, "r", encoding="utf-8") as f:
         return json.load(f)
 
@@ -60,10 +62,27 @@ def save_state(state: dict) -> None:
         json.dump(state, f, ensure_ascii=False, indent=2)
 
 
+# ====== HTTP SESSION ======
+def make_session() -> requests.Session:
+    s = requests.Session()
+    s.headers.update(
+        {
+            "accept": "application/json, text/plain, */*",
+            "user-agent": UA,
+            "referer": REFERER,
+            "accept-language": "ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7",
+        }
+    )
+    # если cookie задан — прокидываем
+    if MOYSKLAD_COOKIE:
+        s.headers["cookie"] = MOYSKLAD_COOKIE
+    return s
+
+
 # ====== MOYSKLAD B2B API ======
-def get_categories() -> list[dict]:
+def get_categories(sess: requests.Session) -> list[dict]:
     url = f"{BASE}/{SHOP_TOKEN}/categories.json"
-    r = requests.get(url, headers={"accept": "application/json"}, timeout=30)
+    r = sess.get(url, timeout=30)
     r.raise_for_status()
     data = r.json()
     if isinstance(data, list):
@@ -74,16 +93,32 @@ def get_categories() -> list[dict]:
 
 
 def _normalize_confusables(s: str) -> str:
-    """
-    Иногда названия содержат латинские буквы, похожие на кириллицу (пример: "Рacпродажа").
-    Чтобы фильтр по "распродажа" работал стабильно — заменяем похожие латинские буквы.
-    """
-    mapping = str.maketrans({
-        "a": "а", "c": "с", "e": "е", "o": "о", "p": "р", "x": "х", "y": "у",
-        "k": "к", "m": "м", "t": "т", "b": "в",
-        "A": "А", "C": "С", "E": "Е", "O": "О", "P": "Р", "X": "Х", "Y": "У",
-        "K": "К", "M": "М", "T": "Т", "B": "В",
-    })
+    mapping = str.maketrans(
+        {
+            "a": "а",
+            "c": "с",
+            "e": "е",
+            "o": "о",
+            "p": "р",
+            "x": "х",
+            "y": "у",
+            "k": "к",
+            "m": "м",
+            "t": "т",
+            "b": "в",
+            "A": "А",
+            "C": "С",
+            "E": "Е",
+            "O": "О",
+            "P": "Р",
+            "X": "Х",
+            "Y": "У",
+            "K": "К",
+            "M": "М",
+            "T": "Т",
+            "B": "В",
+        }
+    )
     return s.translate(mapping)
 
 
@@ -97,33 +132,29 @@ def find_sale_tobacco_categories(categories: list[dict]) -> list[dict]:
     return result
 
 
-def fetch_products_page(category_id: str, category_name: str, limit: int, offset: int) -> dict | list:
-    """
-    ВАЖНО: на твоём портале products.json отдаёт товары корректно, когда переданы:
-    - category_id
-    - category (строкой, названием категории)
-    Это видно из твоего рабочего curl.
-    """
+def fetch_products_page(
+    sess: requests.Session, category_id: str, category_name: str, limit: int, offset: int
+) -> dict | list:
     url = f"{BASE}/{SHOP_TOKEN}/products.json"
     params = {
-        "category": category_name,      # <-- критично
+        "category": category_name,  # как в твоём curl
         "category_id": category_id,
         "limit": limit,
         "offset": offset,
         "search": "",
     }
-    r = requests.get(url, params=params, headers={"accept": "application/json"}, timeout=30)
+    r = sess.get(url, params=params, timeout=30)
     r.raise_for_status()
     return r.json()
 
 
-def iter_products(category_id: str, category_name: str) -> list[dict]:
+def iter_products(sess: requests.Session, category_id: str, category_name: str) -> list[dict]:
     limit = 100
     offset = 0
     all_rows: list[dict] = []
 
     while True:
-        data = fetch_products_page(category_id, category_name, limit, offset)
+        data = fetch_products_page(sess, category_id, category_name, limit, offset)
 
         if isinstance(data, dict):
             rows = data.get("rows") or data.get("items") or data.get("data") or []
@@ -149,10 +180,8 @@ def iter_products(category_id: str, category_name: str) -> list[dict]:
 
 def parse_price_to_rub(p: dict) -> float | None:
     candidates = []
-
     if "price" in p:
         candidates.append(p.get("price"))
-
     for k in ("salePrice", "minPrice", "retail_price", "retailPrice", "price_value", "priceValue"):
         if k in p:
             candidates.append(p.get(k))
@@ -174,7 +203,6 @@ def parse_price_to_rub(p: dict) -> float | None:
     except Exception:
         return None
 
-    # эвристика: если >= 1000 — почти наверняка копейки
     if v >= 1000:
         return round(v / 100.0, 2)
     return round(v, 2)
@@ -185,15 +213,7 @@ def normalize_product(p: dict, category_name: str) -> dict | None:
     name = str(p.get("name") or p.get("title") or "").strip()
     if not pid or not name:
         return None
-
-    price_rub = parse_price_to_rub(p)
-
-    return {
-        "id": pid,
-        "name": name,
-        "price_rub": price_rub,
-        "category": category_name,
-    }
+    return {"id": pid, "name": name, "price_rub": parse_price_to_rub(p), "category": category_name}
 
 
 # ====== TIME RULES ======
@@ -218,15 +238,12 @@ def fmt_money(price_rub: float | None) -> str:
 
 
 def chunk_lines(lines: list[str], max_chars: int = 3500) -> list[str]:
-    chunks = []
-    cur = []
-    cur_len = 0
+    chunks, cur, cur_len = [], [], 0
     for line in lines:
         add_len = len(line) + 1
         if cur and cur_len + add_len > max_chars:
             chunks.append("\n".join(cur))
-            cur = []
-            cur_len = 0
+            cur, cur_len = [], 0
         cur.append(line)
         cur_len += add_len
     if cur:
@@ -261,8 +278,7 @@ def send_changes(added: list[dict], changed: list[tuple[dict, dict]]) -> None:
         lines = [f"💸 Цена изменилась ({len(changed)}):"]
         for old, cur in changed[:60]:
             lines.append(
-                f"• [{cur['category']}] {cur['name']}: "
-                f"{fmt_money(old.get('price_rub'))} → {fmt_money(cur.get('price_rub'))}"
+                f"• [{cur['category']}] {cur['name']}: {fmt_money(old.get('price_rub'))} → {fmt_money(cur.get('price_rub'))}"
             )
         if len(changed) > 60:
             lines.append(f"...и ещё {len(changed) - 60}")
@@ -275,19 +291,17 @@ def send_changes(added: list[dict], changed: list[tuple[dict, dict]]) -> None:
 # ====== MAIN ======
 def main() -> None:
     now = datetime.now(MSK)
-
     state = load_state()
 
-    # 1) Утренний "я живой"
     maybe_heartbeat(state, now)
 
-    # 2) Если не рабочее время — выходим
     if not is_work_time(now):
         save_state(state)
         return
 
-    # 3) Категории -> фильтр
-    categories = get_categories()
+    sess = make_session()
+
+    categories = get_categories(sess)
     target_cats = find_sale_tobacco_categories(categories)
 
     if not target_cats:
@@ -295,7 +309,6 @@ def main() -> None:
         save_state(state)
         return
 
-    # 4) Товары по категориям
     current: dict[str, dict] = {}
     cat_to_products: dict[str, list[dict]] = {}
 
@@ -305,22 +318,17 @@ def main() -> None:
         if not cid or not cname:
             continue
 
-        raw = iter_products(cid, cname)
+        raw = iter_products(sess, cid, cname)
         normed = []
         for p in raw:
             n = normalize_product(p, cname)
             if n:
                 normed.append(n)
-                current[n["id"]] = {
-                    "name": n["name"],
-                    "price_rub": n["price_rub"],
-                    "category": n["category"],
-                }
+                current[n["id"]] = {"name": n["name"], "price_rub": n["price_rub"], "category": n["category"]}
 
         normed.sort(key=lambda x: x["name"].lower())
         cat_to_products[cname] = normed
 
-    # 5) Первый запуск — полный список
     if not state.get("initialized"):
         send_full_list(cat_to_products)
         state["initialized"] = True
@@ -328,7 +336,6 @@ def main() -> None:
         save_state(state)
         return
 
-    # 6) Изменения
     prev: dict[str, dict] = state.get("products", {})
 
     added: list[dict] = []
