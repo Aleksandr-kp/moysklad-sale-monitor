@@ -1,24 +1,9 @@
 {
   "initialized": true,
   "products": {
-    "39cb2abf-b928-11ef-0a80-14330006e3cd": {
-      "name": "Chabacco Mix - Апельсиновое драже, 200 гр (м)",
-      "price_rub": 750.0,
-      "category": "Рacпродажа. Табак для кальяна (1)"
-    },
-    "57b576e4-4d19-11f0-0a80-15d60011fe6f": {
-      "name": "JENT - Blue Hawaii (Голубые Гавайи), 200 гр (м)",
-      "price_rub": 10.7,
-      "category": "Рacпродажа. Табак для кальяна (1)"
-    },
     "b20a79a9-5c06-11f0-0a80-15320049dad6": {
       "name": "JENT - Cookie Bush (Печенье с ревнем), 200 гр (м)",
       "price_rub": 10.7,
-      "category": "Рacпродажа. Табак для кальяна (1)"
-    },
-    "bac694a4-951e-11ef-0a80-077f003e2273": {
-      "name": "Satyr - Bom - Byao (Виноградная Газировка), 100 гр (м)",
-      "price_rub": 700.0,
       "category": "Рacпродажа. Табак для кальяна (1)"
     },
     "134f3992-660d-11f0-0a80-02980029ac3f": {
@@ -51,11 +36,6 @@
       "price_rub": 700.0,
       "category": "Рacпродажа. Табак для кальяна (1)"
     },
-    "a6ac8836-749f-11ee-0a80-01640034ecde": {
-      "name": "Sebero Classic - Halloween (Тыква), 200 гр (м)",
-      "price_rub": 10.1,
-      "category": "Рacпродажа. Табак для кальяна (1)"
-    },
     "52fc07f9-d5df-11ec-0a80-0bfd000e07b4": {
       "name": "Spectrum Hard - Gold kiwi (Киви), 200 гр (м)",
       "price_rub": 10.3,
@@ -71,21 +51,6 @@
       "price_rub": 160.0,
       "category": "Рacпродажа. Табак для кальяна (2)"
     },
-    "095385ea-4d19-11f0-0a80-18880012ba4e": {
-      "name": "JENT - Blue Hawaii (Голубые Гавайи), 25 гр (м)",
-      "price_rub": 160.0,
-      "category": "Рacпродажа. Табак для кальяна (2)"
-    },
-    "d061d90a-89d8-11ee-0a80-0b2d0022a619": {
-      "name": "JENT - Pure Love (Белая роза и манго), 25 гр (м)",
-      "price_rub": 160.0,
-      "category": "Рacпродажа. Табак для кальяна (2)"
-    },
-    "06703614-9894-11ec-0a80-099a0032657b": {
-      "name": "Satyr - Black currant (Черная Смородина), 25 гр (м)",
-      "price_rub": 185.0,
-      "category": "Рacпродажа. Табак для кальяна (2)"
-    },
     "f276686a-5c05-11f0-0a80-0ccf004843d2": {
       "name": "Sebero Black - Cinnabun (Булочка с корицей), 25 гр (м)",
       "price_rub": 160.0,
@@ -94,16 +59,6 @@
     "13aef444-ceff-11ed-0a80-0e0700118dac": {
       "name": "Sebero Black - Garnet (Гранат), 25 гр (м) !",
       "price_rub": 160.0,
-      "category": "Рacпродажа. Табак для кальяна (2)"
-    },
-    "048b0c97-1f31-11ee-0a80-00440038ca8b": {
-      "name": "Sebero Black - Lemon Candy (Лимонные леденцы), 25 гр (м)",
-      "price_rub": 160.0,
-      "category": "Рacпродажа. Табак для кальяна (2)"
-    },
-    "165c47c4-4d1c-11f0-0a80-0def00134da8": {
-      "name": "Sebero Classic - Pudding (Пудинг), 25 гр (м)",
-      "price_rub": 155.0,
       "category": "Рacпродажа. Табак для кальяна (2)"
     },
     "1a46799b-cd7a-11ed-0a80-0ffc0014ce8a": {
