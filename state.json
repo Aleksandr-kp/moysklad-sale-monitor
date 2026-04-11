@@ -1,6 +1,11 @@
 {
   "initialized": true,
   "products": {
+    "622e41ce-2e0b-11ef-0a80-0612004fa8a7": {
+      "name": "Adalya - Mango Tango (Манго - маракуйя), 200 гр (м)",
+      "price_rub": 600.0,
+      "category": "Рacпродажа. Табак для кальяна (1)"
+    },
     "b20a79a9-5c06-11f0-0a80-15320049dad6": {
       "name": "JENT - Cookie Bush (Печенье с ревнем), 200 гр (м)",
       "price_rub": 10.7,
@@ -36,14 +41,44 @@
       "price_rub": 530.0,
       "category": "Рacпродажа. Табак для кальяна (1)"
     },
+    "534ba7dc-a59d-11ef-0a80-0d530038bb49": {
+      "name": "Bonche - Red Wine (Красное вино), 30 гр (м)",
+      "price_rub": 400.0,
+      "category": "Рacпродажа. Табак для кальяна (2)"
+    },
     "095385ea-4d19-11f0-0a80-18880012ba4e": {
       "name": "JENT - Blue Hawaii (Голубые Гавайи), 25 гр (м)",
       "price_rub": 123.82,
       "category": "Рacпродажа. Табак для кальяна (2)"
     },
-    "4676b2df-7407-11ee-0a80-00d30029b0d9": {
-      "name": "Ka Rai - Doha, 20 гр (м)",
-      "price_rub": 178.32,
+    "74e1b710-9208-11f0-0a80-0feb002a7c69": {
+      "name": "Leteam - Кислый мармелад, 25 гр (м)",
+      "price_rub": 100.0,
+      "category": "Рacпродажа. Табак для кальяна (2)"
+    },
+    "750ab0f3-9208-11f0-0a80-0feb002a7c8c": {
+      "name": "Leteam - Клубничное мохито, 25 гр (м)",
+      "price_rub": 100.0,
+      "category": "Рacпродажа. Табак для кальяна (2)"
+    },
+    "fe538eec-b8cb-11ed-0a80-0d2000214bcb": {
+      "name": "Leteam - Лесные ягоды, 25 гр (м)",
+      "price_rub": 100.0,
+      "category": "Рacпродажа. Табак для кальяна (2)"
+    },
+    "753ba3f7-9208-11f0-0a80-0feb002a7cb8": {
+      "name": "Leteam - Райское манго, 25 гр (м)",
+      "price_rub": 100.0,
+      "category": "Рacпродажа. Табак для кальяна (2)"
+    },
+    "0dc603a9-b8cd-11ed-0a80-06d9001fca93": {
+      "name": "Leteam - Цитрусовый фреш, 25 гр (м)",
+      "price_rub": 100.0,
+      "category": "Рacпродажа. Табак для кальяна (2)"
+    },
+    "6939d61e-1c62-11f0-0a80-0b7800289a4f": {
+      "name": "Leteam - Яблочная содовая, 25 гр (м)",
+      "price_rub": 100.0,
       "category": "Рacпродажа. Табак для кальяна (2)"
     },
     "f535c757-bd29-11ef-0a80-0384001fd33e": {
@@ -91,6 +126,16 @@
       "price_rub": 120.67,
       "category": "Рacпродажа. Табак для кальяна (2)"
     },
+    "ab96fd28-e295-11ed-0a80-0bf200328c77": {
+      "name": "Spectrum - Fire Wine (Пряное вино), 25 гр (м)",
+      "price_rub": 150.0,
+      "category": "Рacпродажа. Табак для кальяна (2)"
+    },
+    "abb58447-e295-11ed-0a80-0bf200328c9d": {
+      "name": "Spectrum - Gazpacho (Пряные запеченные томаты), 25 гр (м)",
+      "price_rub": 150.0,
+      "category": "Рacпродажа. Табак для кальяна (2)"
+    },
     "18ad87ae-cd7a-11ed-0a80-0ffc0014ce11": {
       "name": "Spectrum Hard - Apple strudel (Яблочный штрудель), 25 гр (м)",
       "price_rub": 120.67,
@@ -104,6 +149,11 @@
     "eeb58522-20c3-11ee-0a80-11cc00139f96": {
       "name": "Spectrum Hard - Kiwano (Кивано), 25 гр (м) !",
       "price_rub": 120.67,
+      "category": "Рacпродажа. Табак для кальяна (2)"
+    },
+    "0ea8d655-f8ed-11ef-0a80-03bf000e07ea": {
+      "name": "Spectrum Hard - Lavander Kashmir (Лаванда Кашмир), 25 гр (м)",
+      "price_rub": 10.0,
       "category": "Рacпродажа. Табак для кальяна (2)"
     },
     "f3bb6157-edcf-11ef-0a80-1637000747d8": {
@@ -297,5 +347,5 @@
       "category": "Распродажа. Жевательный табак"
     }
   },
-  "last_heartbeat_date": "2026-04-08"
+  "last_heartbeat_date": "2026-04-11"
 }
