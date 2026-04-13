@@ -11,11 +11,6 @@
       "price_rub": 10.7,
       "category": "Рacпродажа. Табак для кальяна (1)"
     },
-    "1328754c-a8af-11ef-0a80-02cc0008d8d4": {
-      "name": "Sabotage - Liquidator (Виски), 250 гр (м)",
-      "price_rub": 800.0,
-      "category": "Рacпродажа. Табак для кальяна (1)"
-    },
     "760805c4-ce61-11ef-0a80-01a8006b02fa": {
       "name": "Satyr - Green Joy (Гуанабана Карамбола), 100 гр (м)",
       "price_rub": 600.0,
@@ -106,11 +101,6 @@
       "price_rub": 120.67,
       "category": "Рacпродажа. Табак для кальяна (2)"
     },
-    "8a4603b7-dd52-11ef-0a80-041600078eb9": {
-      "name": "Satyr - Tangerin (Танджерин), 25 гр (м)",
-      "price_rub": 120.67,
-      "category": "Рacпродажа. Табак для кальяна (2)"
-    },
     "f276686a-5c05-11f0-0a80-0ccf004843d2": {
       "name": "Sebero Black - Cinnabun (Булочка с корицей), 25 гр (м)",
       "price_rub": 120.67,
@@ -118,6 +108,11 @@
     },
     "90d26f16-8210-11ee-0a80-0b3500524ef5": {
       "name": "Sebero Black - Color of India (Карри), 25 гр (м) !",
+      "price_rub": 120.67,
+      "category": "Рacпродажа. Табак для кальяна (2)"
+    },
+    "13aef444-ceff-11ed-0a80-0e0700118dac": {
+      "name": "Sebero Black - Garnet (Гранат), 25 гр (м) !",
       "price_rub": 120.67,
       "category": "Рacпродажа. Табак для кальяна (2)"
     },
