@@ -36,11 +36,6 @@
       "price_rub": 10.7,
       "category": "Рacпродажа. Табак для кальяна (1)"
     },
-    "165e9673-a8af-11ef-0a80-0c100008fc3d": {
-      "name": "Sabotage - Acid (Кизил), 250 гр (м)",
-      "price_rub": 10.0,
-      "category": "Рacпродажа. Табак для кальяна (1)"
-    },
     "2f1d1b6e-beef-11f0-0a80-0c2d000df95a": {
       "name": "Sabotage - Kvassica (Квас), 250 гр (м)",
       "price_rub": 10.0,
@@ -597,5 +592,5 @@
       "category": "Распродажа. Жевательный табак"
     }
   },
-  "last_heartbeat_date": "2026-04-11"
+  "last_heartbeat_date": "2026-04-18"
 }
