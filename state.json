@@ -1,11 +1,6 @@
 {
   "initialized": true,
   "products": {
-    "9a0aaa0a-f0a1-11ed-0a80-059a0009f69b": {
-      "name": "Bonche - Basil (Базилик), 120 гр (м)",
-      "price_rub": 16.0,
-      "category": "Рacпродажа. Табак для кальяна (1)"
-    },
     "37cb47e9-fb71-11ec-0a80-0fc30029a19a": {
       "name": "Bonche - Cookie (Печенье), 120 гр (м)",
       "price_rub": 16.0,
@@ -81,31 +76,6 @@
       "price_rub": 700.0,
       "category": "Рacпродажа. Табак для кальяна (1)"
     },
-    "1ffd9196-da28-11ef-0a80-009b00062aee": {
-      "name": "Spectrum Classic - Greenwich (Грейпфрут - Личи), 100 гр (м) !",
-      "price_rub": 700.0,
-      "category": "Рacпродажа. Табак для кальяна (1)"
-    },
-    "47a11351-d5d6-11ec-0a80-0c7b000c7b45": {
-      "name": "Spectrum Hard - Apple strudel (Яблочный штрудель), 100 гр (м)",
-      "price_rub": 700.0,
-      "category": "Рacпродажа. Табак для кальяна (1)"
-    },
-    "8301d203-16d1-11eb-0a80-04f10058f1dd": {
-      "name": "Spectrum Hard - Brazilian tea (Освежающий чай с лаймом), 100 гр (м) !",
-      "price_rub": 700.0,
-      "category": "Рacпродажа. Табак для кальяна (1)"
-    },
-    "00032649-ee89-11ea-0a80-045f0005f02a": {
-      "name": "Spectrum Hard - Cookies Milk HL (Молочное печенье), 100 гр (м)",
-      "price_rub": 700.0,
-      "category": "Рacпродажа. Табак для кальяна (1)"
-    },
-    "bc084026-d5df-11ec-0a80-08c6000e4581": {
-      "name": "Spectrum Hard - Green pop (Освежающий лимонад), 200 гр (м)",
-      "price_rub": 11.5,
-      "category": "Рacпродажа. Табак для кальяна (1)"
-    },
     "f3dc712a-87f3-11f0-0a80-095f000ec5e4": {
       "name": "Spectrum Hard - Wild Mix (Лесные ягоды), 200 гр (м)",
       "price_rub": 11.5,
@@ -130,11 +100,6 @@
       "name": "Хулиган - BOSS (Цветочный виски), 200 гр (м)",
       "price_rub": 11.5,
       "category": "Рacпродажа. Табак для кальяна (1)"
-    },
-    "11317b8e-3afb-11ec-0a80-0652008a3e4d": {
-      "name": "Bonche - Basil (Базилик), 30 гр (м)",
-      "price_rub": 545.0,
-      "category": "Рacпродажа. Табак для кальяна (2)"
     },
     "114654e2-3afb-11ec-0a80-0652008a3e53": {
       "name": "Bonche - Clove (Гвоздика), 30 гр (м)",
@@ -169,41 +134,6 @@
     "135ce277-5db1-11ec-0a80-07da00152324": {
       "name": "Frigate OG - Infinity, 25 гр (м)",
       "price_rub": 120.0,
-      "category": "Рacпродажа. Табак для кальяна (2)"
-    },
-    "a71577ee-59c7-11f0-0a80-096b001b0304": {
-      "name": "Hypreme Black Mix 6 - Маргарита, Малиновая гранита, 40 гр (м)",
-      "price_rub": 240.0,
-      "category": "Рacпродажа. Табак для кальяна (2)"
-    },
-    "1b3f6300-59c6-11f0-0a80-0bd0001aacda": {
-      "name": "Hypreme Black - Orange (Апельсин), 40 гр (м)",
-      "price_rub": 240.0,
-      "category": "Рacпродажа. Табак для кальяна (2)"
-    },
-    "a24d1ac2-59b8-11f0-0a80-1ac9001a8fc5": {
-      "name": "Hypreme Red - 2+1 Threesome (Ягодный микс), 40 гр (м)",
-      "price_rub": 240.0,
-      "category": "Рacпродажа. Табак для кальяна (2)"
-    },
-    "b82952b3-59b8-11f0-0a80-05a9001a90fb": {
-      "name": "Hypreme Red - Ice in Ass (Лёд), 40 гр (м)",
-      "price_rub": 240.0,
-      "category": "Рacпродажа. Табак для кальяна (2)"
-    },
-    "baf9c3f0-59b8-11f0-0a80-1532001ab480": {
-      "name": "Hypreme Red - Old Germiona (Дачная смородина), 40 гр (м)",
-      "price_rub": 240.0,
-      "category": "Рacпродажа. Табак для кальяна (2)"
-    },
-    "bacfd83c-59b8-11f0-0a80-1532001ab465": {
-      "name": "Hypreme Red - Old good trip (Индийский перец), 40 гр (м)",
-      "price_rub": 240.0,
-      "category": "Рacпродажа. Табак для кальяна (2)"
-    },
-    "b806548b-59b8-11f0-0a80-05a9001a90e0": {
-      "name": "Hypreme Red - Russian Rap (Арбуз), 40 гр (м)",
-      "price_rub": 240.0,
       "category": "Рacпродажа. Табак для кальяна (2)"
     },
     "095385ea-4d19-11f0-0a80-18880012ba4e": {
@@ -276,11 +206,6 @@
       "price_rub": 150.0,
       "category": "Рacпродажа. Табак для кальяна (2)"
     },
-    "ac591adf-e295-11ed-0a80-0bf200328cdf": {
-      "name": "Spectrum Classic - Morning mango (Овсяная каша - Манго), 25 гр (м) !",
-      "price_rub": 150.0,
-      "category": "Рacпродажа. Табак для кальяна (2)"
-    },
     "adaf5859-e295-11ed-0a80-0bf200328d7c": {
       "name": "Spectrum Classic - Spicy peach (Жареный персик), 25 гр (м)",
       "price_rub": 150.0,
@@ -291,18 +216,8 @@
       "price_rub": 150.0,
       "category": "Рacпродажа. Табак для кальяна (2)"
     },
-    "18ad87ae-cd7a-11ed-0a80-0ffc0014ce11": {
-      "name": "Spectrum Hard - Apple strudel (Яблочный штрудель), 25 гр (м)",
-      "price_rub": 150.0,
-      "category": "Рacпродажа. Табак для кальяна (2)"
-    },
     "19a8dc31-cd7a-11ed-0a80-0ffc0014ce65": {
       "name": "Spectrum Hard - Cookies&milk (Молочное печенье), 25 гр (м)",
-      "price_rub": 150.0,
-      "category": "Рacпродажа. Табак для кальяна (2)"
-    },
-    "478bbeb3-cd7d-11ed-0a80-08d50015183c": {
-      "name": "Spectrum Hard - Cowberry lemonade (Брусничный лимонад), 25 гр (м) !",
       "price_rub": 150.0,
       "category": "Рacпродажа. Табак для кальяна (2)"
     },
@@ -316,33 +231,8 @@
       "price_rub": 150.0,
       "category": "Рacпродажа. Табак для кальяна (2)"
     },
-    "a60a8225-3782-11ee-0a80-13c60011d12d": {
-      "name": "Spectrum Hard - Pan Mango (Манго - Индийские пряности), 25 гр (м) !",
-      "price_rub": 150.0,
-      "category": "Рacпродажа. Табак для кальяна (2)"
-    },
     "f3bb6157-edcf-11ef-0a80-1637000747d8": {
       "name": "Душа Mono - Base (Табачный лист), 25 гр (м)",
-      "price_rub": 150.0,
-      "category": "Рacпродажа. Табак для кальяна (2)"
-    },
-    "1c0478c7-4c14-11f0-0a80-0b970005b134": {
-      "name": "Душа Mono - Basil (Душистый базилик), 25 гр (м)",
-      "price_rub": 150.0,
-      "category": "Рacпродажа. Табак для кальяна (2)"
-    },
-    "5cc05299-4c14-11f0-0a80-05d300059d70": {
-      "name": "Душа Mono - Cian (Кристальный джин), 25 гр (м)",
-      "price_rub": 150.0,
-      "category": "Рacпродажа. Табак для кальяна (2)"
-    },
-    "303c554e-edd0-11ef-0a80-163700075497": {
-      "name": "Душа Mono - Mint (Перечная мята), 25 гр (м)",
-      "price_rub": 150.0,
-      "category": "Рacпродажа. Табак для кальяна (2)"
-    },
-    "fae5fffc-3128-11ee-0a80-02f9000cb766": {
-      "name": "Душа Mono - Mousse (Мусс шелковицы), 25 гр (м)",
       "price_rub": 150.0,
       "category": "Рacпродажа. Табак для кальяна (2)"
     },
