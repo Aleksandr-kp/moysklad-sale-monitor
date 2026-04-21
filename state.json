@@ -96,11 +96,6 @@
       "price_rub": 11.5,
       "category": "Рacпродажа. Табак для кальяна (1)"
     },
-    "5704b1a3-039d-11ef-0a80-02420007b4a1": {
-      "name": "Spectrum Mix - Kiwifruit (Смузи из киви), 200 гр (м) !",
-      "price_rub": 11.5,
-      "category": "Рacпродажа. Табак для кальяна (1)"
-    },
     "dc3554aa-401f-11ef-0a80-04af000721c6": {
       "name": "Spectrum Mix - Tropicana (Ананас - Маракуйя), 200 гр (м)",
       "price_rub": 11.5,
@@ -223,6 +218,11 @@
     },
     "90d26f16-8210-11ee-0a80-0b3500524ef5": {
       "name": "Sebero Black - Color of India (Карри), 25 гр (м) !",
+      "price_rub": 120.67,
+      "category": "Рacпродажа. Табак для кальяна (2)"
+    },
+    "13aef444-ceff-11ed-0a80-0e0700118dac": {
+      "name": "Sebero Black - Garnet (Гранат), 25 гр (м) !",
       "price_rub": 120.67,
       "category": "Рacпродажа. Табак для кальяна (2)"
     },
