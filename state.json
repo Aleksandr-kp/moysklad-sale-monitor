@@ -191,6 +191,11 @@
       "price_rub": 120.67,
       "category": "Рacпродажа. Табак для кальяна (2)"
     },
+    "13aef444-ceff-11ed-0a80-0e0700118dac": {
+      "name": "Sebero Black - Garnet (Гранат), 25 гр (м) !",
+      "price_rub": 120.67,
+      "category": "Рacпродажа. Табак для кальяна (2)"
+    },
     "57c3be61-f8e8-11ef-0a80-1423000d1b99": {
       "name": "Spectrum Classic - Apple Cider (Яблочный сидр), 25 гр (м)",
       "price_rub": 150.0,
@@ -198,11 +203,6 @@
     },
     "adaf5859-e295-11ed-0a80-0bf200328d7c": {
       "name": "Spectrum Classic - Spicy peach (Жареный персик), 25 гр (м)",
-      "price_rub": 150.0,
-      "category": "Рacпродажа. Табак для кальяна (2)"
-    },
-    "ab96fd28-e295-11ed-0a80-0bf200328c77": {
-      "name": "Spectrum - Fire Wine (Пряное вино), 25 гр (м)",
       "price_rub": 150.0,
       "category": "Рacпродажа. Табак для кальяна (2)"
     },
@@ -329,6 +329,11 @@
     "29a25c78-e207-11ee-0a80-01b700075ea1": {
       "name": "Жевательный табак Siberia Silver Slim Currant, 10 гр (м)",
       "price_rub": 327.0,
+      "category": "Распродажа. Жевательный табак"
+    },
+    "3d3d283f-ca63-11ee-0a80-0e210011fc3e": {
+      "name": "Жевательный табак Siberia Silver White Dry Mini, 10 гр (25 пак) (м)",
+      "price_rub": 330.0,
       "category": "Распродажа. Жевательный табак"
     },
     "0bd4de83-f8ff-11ef-0a80-019a001216a2": {
