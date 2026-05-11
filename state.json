@@ -1,6 +1,11 @@
 {
   "initialized": true,
   "products": {
+    "c4812a53-6b84-11f0-0a80-0d98002780cb": {
+      "name": "Bonche - Kiwi (Киви), 120 гр (м)",
+      "price_rub": 16.0,
+      "category": "Рacпродажа. Табак для кальяна (1)"
+    },
     "93dbb1c4-a32f-11ef-0a80-135d0009daa0": {
       "name": "Jent Cigar - Односолодовый виски, 100 гр (м)",
       "price_rub": 970.0,
@@ -68,6 +73,11 @@
     },
     "114654e2-3afb-11ec-0a80-0652008a3e53": {
       "name": "Bonche - Clove (Гвоздика), 30 гр (м)",
+      "price_rub": 545.0,
+      "category": "Рacпродажа. Табак для кальяна (2)"
+    },
+    "1159fd9e-3afb-11ec-0a80-0652008a3e58": {
+      "name": "Bonche - Ginger (Имбирь), 30 гр (м)",
       "price_rub": 545.0,
       "category": "Рacпродажа. Табак для кальяна (2)"
     },
@@ -181,6 +191,11 @@
       "price_rub": 150.0,
       "category": "Рacпродажа. Табак для кальяна (2)"
     },
+    "19a8dc31-cd7a-11ed-0a80-0ffc0014ce65": {
+      "name": "Spectrum Hard - Cookies&milk (Молочное печенье), 25 гр (м)",
+      "price_rub": 150.0,
+      "category": "Рacпродажа. Табак для кальяна (2)"
+    },
     "b98c5512-3aeb-11f0-0a80-014a000d9891": {
       "name": "Spectrum Hard - Gooseberry (Крыжовник), 25 гр (м)",
       "price_rub": 150.0,
@@ -264,6 +279,11 @@
     "cb1cf35a-0b38-11f1-0a80-19c000376e8e": {
       "name": "Жевательный табак NRG road Slim - Mango Mint, 10 гр (м)",
       "price_rub": 255.0,
+      "category": "Распродажа. Жевательный табак"
+    },
+    "567ddab8-e204-11ee-0a80-0d3e0012e201": {
+      "name": "Жевательный табак ODEN'S TAR Slim - Grapefruit, 10 гр (16 пак) (м)",
+      "price_rub": 327.0,
       "category": "Распродажа. Жевательный табак"
     },
     "a496d40d-6c70-11f0-0a80-1598000ed640": {
@@ -386,6 +406,11 @@
       "price_rub": 301.75,
       "category": "Распродажа. Жевательный табак"
     },
+    "6442f6b8-da51-11f0-0a80-190200068776": {
+      "name": "Жевательный табак ODEN'S TAR Cold Mini, 8 гр (20 пак)",
+      "price_rub": 257.55,
+      "category": "Распродажа. Жевательный табак"
+    },
     "ef353878-43d3-11ed-0a80-0cf2000e7d6e": {
       "name": "Жевательный табак ODEN'S TAR Double Mint, 16 гр (20 пак)",
       "price_rub": 301.75,
@@ -421,11 +446,6 @@
       "price_rub": 279.65,
       "category": "Распродажа. Жевательный табак"
     },
-    "3282d642-c088-11f0-0a80-01cb000e750c": {
-      "name": "Жевательный табак Siberia Silver Mini X2, 8 гр (20 пак)",
-      "price_rub": 279.65,
-      "category": "Распродажа. Жевательный табак"
-    },
     "b71ca9cf-43d4-11ed-0a80-02f6000f7951": {
       "name": "Жевательный табак Siberia Silver White Dry, 13 гр (17 пак)",
       "price_rub": 200.0,
@@ -434,6 +454,11 @@
     "f8f0daa6-43d4-11ed-0a80-04bf000d9839": {
       "name": "Жевательный табак Siberia Silver White Dry, 16 гр (20 пак)",
       "price_rub": 319.6,
+      "category": "Распродажа. Жевательный табак"
+    },
+    "87e67826-43d4-11ed-0a80-0d1b000e186c": {
+      "name": "Жевательный табак Siberia Silver White Dry Slim, 13 гр (21 пак)",
+      "price_rub": 293.25,
       "category": "Распродажа. Жевательный табак"
     }
   },
