@@ -166,11 +166,6 @@
       "price_rub": 120.67,
       "category": "Рacпродажа. Табак для кальяна (2)"
     },
-    "90d26f16-8210-11ee-0a80-0b3500524ef5": {
-      "name": "Sebero Black - Color of India (Карри), 25 гр (м) !",
-      "price_rub": 120.67,
-      "category": "Рacпродажа. Табак для кальяна (2)"
-    },
     "57c3be61-f8e8-11ef-0a80-1423000d1b99": {
       "name": "Spectrum Classic - Apple Cider (Яблочный сидр), 25 гр (м)",
       "price_rub": 150.0,
@@ -431,16 +426,11 @@
       "price_rub": 200.0,
       "category": "Распродажа. Жевательный табак"
     },
-    "f8f0daa6-43d4-11ed-0a80-04bf000d9839": {
-      "name": "Жевательный табак Siberia Silver White Dry, 16 гр (20 пак)",
-      "price_rub": 319.6,
-      "category": "Распродажа. Жевательный табак"
-    },
     "87e67826-43d4-11ed-0a80-0d1b000e186c": {
       "name": "Жевательный табак Siberia Silver White Dry Slim, 13 гр (21 пак)",
       "price_rub": 293.25,
       "category": "Распродажа. Жевательный табак"
     }
   },
-  "last_heartbeat_date": "2026-05-12"
+  "last_heartbeat_date": "2026-05-13"
 }
