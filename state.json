@@ -16,11 +16,6 @@
       "price_rub": 10.7,
       "category": "Рacпродажа. Табак для кальяна (1)"
     },
-    "065bedd9-7465-11f0-0a80-14290010554e": {
-      "name": "JENT - Cuba Libre (Куба либре), 200 гр (м)",
-      "price_rub": 10.7,
-      "category": "Рacпродажа. Табак для кальяна (1)"
-    },
     "2f1d1b6e-beef-11f0-0a80-0c2d000df95a": {
       "name": "Sabotage - Kvassica (Квас), 250 гр (м)",
       "price_rub": 10.0,
@@ -156,6 +151,11 @@
       "price_rub": 120.67,
       "category": "Рacпродажа. Табак для кальяна (2)"
     },
+    "02c11841-dd53-11ef-0a80-04160007b7f6": {
+      "name": "Satyr - Griffinberry (Чарующая шелковица), 25 гр (м)",
+      "price_rub": 120.67,
+      "category": "Рacпродажа. Табак для кальяна (2)"
+    },
     "ef3fbb77-dd53-11ef-0a80-0e9a00084a6f": {
       "name": "Satyr - Java (Экзотический ракум), 25 гр (м)",
       "price_rub": 120.67,
@@ -278,11 +278,6 @@
     },
     "6b7cca16-6c71-11f0-0a80-1995000f31d5": {
       "name": "Жевательный табак ORN Mini Exstra Strong - Coffee, 6 гр (м)",
-      "price_rub": 152.8,
-      "category": "Распродажа. Жевательный табак"
-    },
-    "6033d444-6c71-11f0-0a80-0fb8000efb35": {
-      "name": "Жевательный табак ORN Mini Strong Slim - Ice Mint, 6 гр (м)",
       "price_rub": 152.8,
       "category": "Распродажа. Жевательный табак"
     },
