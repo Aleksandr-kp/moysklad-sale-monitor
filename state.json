@@ -1,11 +1,6 @@
 {
   "initialized": true,
   "products": {
-    "c4812a53-6b84-11f0-0a80-0d98002780cb": {
-      "name": "Bonche - Kiwi (Киви), 120 гр (м)",
-      "price_rub": 16.0,
-      "category": "Рacпродажа. Табак для кальяна (1)"
-    },
     "93dbb1c4-a32f-11ef-0a80-135d0009daa0": {
       "name": "Jent Cigar - Односолодовый виски, 100 гр (м)",
       "price_rub": 970.0,
@@ -56,11 +51,6 @@
       "price_rub": 700.0,
       "category": "Рacпродажа. Табак для кальяна (1)"
     },
-    "9fbf54cb-a5a1-11ef-0a80-01780039d640": {
-      "name": "Душа Mono - Guave (Экзотический фрукт), 200 гр (м)",
-      "price_rub": 11.5,
-      "category": "Рacпродажа. Табак для кальяна (1)"
-    },
     "08f54df4-6b82-11f0-0a80-00b600275995": {
       "name": "Хулиган - BOSS (Цветочный виски), 200 гр (м)",
       "price_rub": 11.5,
@@ -108,11 +98,6 @@
     },
     "a24d1ac2-59b8-11f0-0a80-1ac9001a8fc5": {
       "name": "Hypreme Red - 2+1 Threesome (Ягодный микс), 40 гр (м)",
-      "price_rub": 240.0,
-      "category": "Рacпродажа. Табак для кальяна (2)"
-    },
-    "b806548b-59b8-11f0-0a80-05a9001a90e0": {
-      "name": "Hypreme Red - Russian Rap (Арбуз), 40 гр (м)",
       "price_rub": 240.0,
       "category": "Рacпродажа. Табак для кальяна (2)"
     },
@@ -376,11 +361,6 @@
       "price_rub": 301.75,
       "category": "Распродажа. Жевательный табак"
     },
-    "6442f6b8-da51-11f0-0a80-190200068776": {
-      "name": "Жевательный табак ODEN'S TAR Cold Mini, 8 гр (20 пак)",
-      "price_rub": 257.55,
-      "category": "Распродажа. Жевательный табак"
-    },
     "ef353878-43d3-11ed-0a80-0cf2000e7d6e": {
       "name": "Жевательный табак ODEN'S TAR Double Mint, 16 гр (20 пак)",
       "price_rub": 301.75,
@@ -421,16 +401,11 @@
       "price_rub": 200.0,
       "category": "Распродажа. Жевательный табак"
     },
-    "f8f0daa6-43d4-11ed-0a80-04bf000d9839": {
-      "name": "Жевательный табак Siberia Silver White Dry, 16 гр (20 пак)",
-      "price_rub": 319.6,
-      "category": "Распродажа. Жевательный табак"
-    },
     "87e67826-43d4-11ed-0a80-0d1b000e186c": {
       "name": "Жевательный табак Siberia Silver White Dry Slim, 13 гр (21 пак)",
       "price_rub": 293.25,
       "category": "Распродажа. Жевательный табак"
     }
   },
-  "last_heartbeat_date": "2026-05-13"
+  "last_heartbeat_date": "2026-05-14"
 }
