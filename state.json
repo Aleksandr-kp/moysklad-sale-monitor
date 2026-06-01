@@ -1,11 +1,6 @@
 {
   "initialized": true,
   "products": {
-    "8d16a3e6-6c84-11f0-0a80-01b60012258b": {
-      "name": "Element \"Вода\" - Cookie Monster (Земляничное печенье), 200 гр (м)",
-      "price_rub": 580.4,
-      "category": "Рacпродажа. Табак для кальяна (1)"
-    },
     "93dbb1c4-a32f-11ef-0a80-135d0009daa0": {
       "name": "Jent Cigar - Односолодовый виски, 100 гр (м)",
       "price_rub": 332.2,
@@ -19,11 +14,6 @@
     "2f1d1b6e-beef-11f0-0a80-0c2d000df95a": {
       "name": "Sabotage - Kvassica (Квас), 250 гр (м)",
       "price_rub": 725.5,
-      "category": "Рacпродажа. Табак для кальяна (1)"
-    },
-    "760805c4-ce61-11ef-0a80-01a8006b02fa": {
-      "name": "Satyr - Green Joy (Гуанабана Карамбола), 100 гр (м)",
-      "price_rub": 332.2,
       "category": "Рacпродажа. Табак для кальяна (1)"
     },
     "23cd6c16-72c3-11f0-0a80-040f00102dcd": {
