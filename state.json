@@ -296,11 +296,6 @@
       "price_rub": 150.0,
       "category": "Распродажа. Жевательный табак"
     },
-    "42043d25-e204-11ee-0a80-07480013e37d": {
-      "name": "Жевательный табак ODEN'S TAR Slim - Cherry, 10 гр (16 пак)",
-      "price_rub": 150.0,
-      "category": "Распродажа. Жевательный табак"
-    },
     "a891657f-76d0-11ed-0a80-048b00087747": {
       "name": "Жевательный табак ODEN'S TAR White Dry Slim, 13 гр",
       "price_rub": 150.0,
@@ -315,12 +310,7 @@
       "name": "Жевательный табак Siberia Silver White Dry, 13 гр (17 пак)",
       "price_rub": 150.0,
       "category": "Распродажа. Жевательный табак"
-    },
-    "87e67826-43d4-11ed-0a80-0d1b000e186c": {
-      "name": "Жевательный табак Siberia Silver White Dry Slim, 13 гр (21 пак)",
-      "price_rub": 150.0,
-      "category": "Распродажа. Жевательный табак"
     }
   },
-  "last_heartbeat_date": "2026-05-31"
+  "last_heartbeat_date": "2026-06-12"
 }
