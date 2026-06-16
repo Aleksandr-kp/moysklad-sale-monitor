@@ -1,6 +1,11 @@
 {
   "initialized": true,
   "products": {
+    "93dbb1c4-a32f-11ef-0a80-135d0009daa0": {
+      "name": "Jent Cigar - Односолодовый виски, 100 гр (м)",
+      "price_rub": 332.2,
+      "category": "Рacпродажа. Табак для кальяна (1)"
+    },
     "b20a79a9-5c06-11f0-0a80-15320049dad6": {
       "name": "JENT - Cookie Bush (Печенье с ревнем), 200 гр (м)",
       "price_rub": 580.4,
@@ -308,7 +313,7 @@
     },
     "b71ca9cf-43d4-11ed-0a80-02f6000f7951": {
       "name": "Жевательный табак Siberia Silver White Dry, 13 гр (17 пак)",
-      "price_rub": 100.0,
+      "price_rub": 50.0,
       "category": "Распродажа. Жевательный табак"
     }
   },
