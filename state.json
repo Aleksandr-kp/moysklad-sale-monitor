@@ -171,11 +171,6 @@
       "price_rub": 255.0,
       "category": "Распродажа. Жевательный табак"
     },
-    "567ddab8-e204-11ee-0a80-0d3e0012e201": {
-      "name": "Жевательный табак ODEN'S TAR Slim - Grapefruit, 10 гр (16 пак) (м)",
-      "price_rub": 327.0,
-      "category": "Распродажа. Жевательный табак"
-    },
     "a496d40d-6c70-11f0-0a80-1598000ed640": {
       "name": "Жевательный табак ORN Medium Slim - Cold Dry, 12 гр (м)",
       "price_rub": 266.8,
@@ -184,6 +179,11 @@
     "a6abef6d-6c70-11f0-0a80-01b6000e3a99": {
       "name": "Жевательный табак ORN Medium Slim - Menthol, 12 гр (м)",
       "price_rub": 266.8,
+      "category": "Распродажа. Жевательный табак"
+    },
+    "6b7cca16-6c71-11f0-0a80-1995000f31d5": {
+      "name": "Жевательный табак ORN Mini Exstra Strong - Coffee, 6 гр (м)",
+      "price_rub": 152.8,
       "category": "Распродажа. Жевательный табак"
     },
     "95a584dd-6c70-11f0-0a80-0620000eba0e": {
@@ -309,6 +309,11 @@
     "b71ca9cf-43d4-11ed-0a80-02f6000f7951": {
       "name": "Жевательный табак Siberia Silver White Dry, 13 гр (17 пак)",
       "price_rub": 50.0,
+      "category": "Распродажа. Жевательный табак"
+    },
+    "87e67826-43d4-11ed-0a80-0d1b000e186c": {
+      "name": "Жевательный табак Siberia Silver White Dry Slim, 13 гр (21 пак)",
+      "price_rub": 150.0,
       "category": "Распродажа. Жевательный табак"
     }
   },
