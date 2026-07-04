@@ -301,16 +301,6 @@
       "price_rub": 150.0,
       "category": "Рacпродажа. Табак для кальяна (2)"
     },
-    "75c5c152-1a49-11ee-0a80-0ec8000aa84b": {
-      "name": "Mr. Brew Classic - Brew candy (Конфеты Брю), 25 гр (м)",
-      "price_rub": 165.0,
-      "category": "Рacпродажа. Табак для кальяна (2)"
-    },
-    "41d233ef-1a49-11ee-0a80-0b1f000a5758": {
-      "name": "Mr. Brew Classic - Pomelove (Помело), 25 гр (м)",
-      "price_rub": 165.0,
-      "category": "Рacпродажа. Табак для кальяна (2)"
-    },
     "8aacaee6-978e-11f0-0a80-1bbe002b6efc": {
       "name": "Sapphire Crown - Bombay (Джин с можжевельником и огурцом), 25 гр (м)",
       "price_rub": 150.0,
@@ -623,6 +613,11 @@
     },
     "ef353878-43d3-11ed-0a80-0cf2000e7d6e": {
       "name": "Жевательный табак ODEN'S TAR Double Mint, 16 гр (20 пак)",
+      "price_rub": 100.0,
+      "category": "Распродажа. Жевательный табак"
+    },
+    "2d089867-a2fc-11ee-0a80-0fee004c5520": {
+      "name": "Жевательный табак ODEN'S TAR Double Mint Slim, 13 гр (21 пак)",
       "price_rub": 100.0,
       "category": "Распродажа. Жевательный табак"
     },
