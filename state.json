@@ -541,6 +541,11 @@
       "price_rub": 266.8,
       "category": "Распродажа. Жевательный табак"
     },
+    "6b7cca16-6c71-11f0-0a80-1995000f31d5": {
+      "name": "Жевательный табак ORN Mini Exstra Strong - Coffee, 6 гр (м)",
+      "price_rub": 152.8,
+      "category": "Распродажа. Жевательный табак"
+    },
     "95a584dd-6c70-11f0-0a80-0620000eba0e": {
       "name": "Жевательный табак ORN Strong Slim - Cold Dry, 12 гр (м)",
       "price_rub": 266.8,
@@ -614,6 +619,11 @@
     "e852f29c-93a8-11f0-0a80-10f1000a8bd7": {
       "name": "Жевательный табак ДОНБАСС Strong - Cold Dry, 13 гр (м)",
       "price_rub": 288.95,
+      "category": "Распродажа. Жевательный табак"
+    },
+    "f8f0daa6-43d4-11ed-0a80-04bf000d9839": {
+      "name": "Жевательный табак Siberia Silver White Dry, 16 гр (20 пак)",
+      "price_rub": 100.0,
       "category": "Распродажа. Жевательный табак"
     }
   },
