@@ -361,11 +361,6 @@
       "price_rub": 175.0,
       "category": "Рacпродажа. Табак для кальяна (2)"
     },
-    "f276686a-5c05-11f0-0a80-0ccf004843d2": {
-      "name": "Sebero Black - Cinnabun (Булочка с корицей), 25 гр (м)",
-      "price_rub": 120.67,
-      "category": "Рacпродажа. Табак для кальяна (2)"
-    },
     "165c47c4-4d1c-11f0-0a80-0def00134da8": {
       "name": "Sebero Classic - Pudding (Пудинг), 25 гр (м)",
       "price_rub": 145.0,
@@ -618,6 +613,11 @@
     },
     "f8f0daa6-43d4-11ed-0a80-04bf000d9839": {
       "name": "Жевательный табак Siberia Silver White Dry, 16 гр (20 пак)",
+      "price_rub": 100.0,
+      "category": "Распродажа. Жевательный табак"
+    },
+    "87e67826-43d4-11ed-0a80-0d1b000e186c": {
+      "name": "Жевательный табак Siberia Silver White Dry Slim, 13 гр (21 пак)",
       "price_rub": 100.0,
       "category": "Распродажа. Жевательный табак"
     }
