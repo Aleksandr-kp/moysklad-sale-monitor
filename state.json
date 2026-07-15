@@ -366,6 +366,41 @@
       "price_rub": 140.0,
       "category": "Рacпродажа. Табак для кальяна (2)"
     },
+    "beec09d7-2f04-11f0-0a80-0cd40043245e": {
+      "name": "Vinyl Medium - Aperolling stones (Цитрусовый апероль со льдом), 20 гр (м)",
+      "price_rub": 110.0,
+      "category": "Рacпродажа. Табак для кальяна (2)"
+    },
+    "bf22fb52-2f04-11f0-0a80-0cd400432479": {
+      "name": "Vinyl Medium - Baikal's blues (Лимонад Байкал), 20 гр (м)",
+      "price_rub": 110.0,
+      "category": "Рacпродажа. Табак для кальяна (2)"
+    },
+    "c17be8a2-2f04-11f0-0a80-14c600429af5": {
+      "name": "Vinyl Medium - Britney Pears (Яблоко, груша, мята), 20 гр (м)",
+      "price_rub": 110.0,
+      "category": "Рacпродажа. Табак для кальяна (2)"
+    },
+    "22e20a50-8319-11f0-0a80-03bf001bd2a9": {
+      "name": "Vinyl Medium - Green Tea Gang (Ягодный чай), 20 гр (м)",
+      "price_rub": 110.0,
+      "category": "Рacпродажа. Табак для кальяна (2)"
+    },
+    "72bc0eb1-8317-11f0-0a80-04bd001bb36d": {
+      "name": "Vinyl Medium - No woman, no cry (Абсент с корицей и пряностями), 20 гр (м)",
+      "price_rub": 110.0,
+      "category": "Рacпродажа. Табак для кальяна (2)"
+    },
+    "f93dcdb2-2f05-11f0-0a80-195a0042867b": {
+      "name": "Vinyl Medium Plus - Knocking on Melon's Door (Арбуз, дыня, мята), 20 гр (м)",
+      "price_rub": 110.0,
+      "category": "Рacпродажа. Табак для кальяна (2)"
+    },
+    "293a3ca3-8317-11f0-0a80-0f06001b0730": {
+      "name": "Vinyl Medium - Red Hot Raspberries (Малина, грейпфрут), 20 гр (м)",
+      "price_rub": 110.0,
+      "category": "Рacпродажа. Табак для кальяна (2)"
+    },
     "6dd8188f-55ab-11f0-0a80-082300327367": {
       "name": "Дарксайд Саботаж - Кашмир (кашмир), 30 гр (м) !",
       "price_rub": 251.0,
@@ -443,132 +478,162 @@
     },
     "990f35fc-0317-11f0-0a80-1646002e2f8d": {
       "name": "Жевательный табак Fjord Limited - Mint, 13 гр (м)",
-      "price_rub": 306.0,
+      "price_rub": 292.95,
+      "category": "Распродажа. Жевательный табак"
+    },
+    "f06268fd-a038-11ef-0a80-079d003cc90c": {
+      "name": "Жевательный табак Fjord Ultra - Mint, 13 гр (м)",
+      "price_rub": 292.95,
+      "category": "Распродажа. Жевательный табак"
+    },
+    "c2298a30-79e7-11f0-0a80-04590025901d": {
+      "name": "Жевательный табак Fjord Ultra Slim - Pepper Mint, 10 гр (м)",
+      "price_rub": 258.0,
+      "category": "Распродажа. Жевательный табак"
+    },
+    "16b8ce75-79e8-11f0-0a80-1b050026ef74": {
+      "name": "Жевательный табак Fjord Ultra Slim - Sweet Mint, 10 гр (м)",
+      "price_rub": 258.0,
+      "category": "Распродажа. Жевательный табак"
+    },
+    "bf3a643a-79e7-11f0-0a80-14340025b9c9": {
+      "name": "Жевательный табак Fjord Ultra Slim - Taiga, 10 гр (м)",
+      "price_rub": 258.0,
+      "category": "Распродажа. Жевательный табак"
+    },
+    "0755e42c-df2d-11f0-0a80-0321003690e2": {
+      "name": "Жевательный табак Husky Soft Slim - Peppermint, 10 гр (м)",
+      "price_rub": 258.0,
+      "category": "Распродажа. Жевательный табак"
+    },
+    "5118e941-52a1-11f0-0a80-15ea00278fdb": {
+      "name": "Жевательный табак Husky Strong Slim - Peppermint, 10 гр (м)",
+      "price_rub": 258.0,
       "category": "Распродажа. Жевательный табак"
     },
     "9e310c12-105c-11f0-0a80-07ea0019c3a4": {
       "name": "Жевательный табак IZI Slim - Cool Mint, 10 гр (м)",
-      "price_rub": 254.0,
+      "price_rub": 258.0,
       "category": "Распродажа. Жевательный табак"
     },
     "a0cd0a9b-105c-11f0-0a80-030e0019ffe8": {
       "name": "Жевательный табак IZI Slim - Peppermint, 10 гр (м)",
-      "price_rub": 254.0,
+      "price_rub": 258.0,
       "category": "Распродажа. Жевательный табак"
     },
     "2f936c3f-984f-11f0-0a80-06660006a52d": {
       "name": "Жевательный табак Ka Rai - Mint, 13 гр (м)",
-      "price_rub": 310.0,
+      "price_rub": 292.95,
       "category": "Распродажа. Жевательный табак"
     },
     "e1b8675b-79a2-11f0-0a80-17320018b190": {
       "name": "Жевательный табак LIT mini Medium Slim - Freeze, 6,5 гр (м)",
-      "price_rub": 165.45,
+      "price_rub": 169.45,
       "category": "Распродажа. Жевательный табак"
     },
     "c07c13dc-0b38-11f1-0a80-0c930036dce6": {
       "name": "Жевательный табак NRG road - Cold Dry, 10 гр (м)",
-      "price_rub": 255.0,
+      "price_rub": 258.0,
       "category": "Распродажа. Жевательный табак"
     },
     "c964c17b-0b38-11f1-0a80-0d4200385384": {
       "name": "Жевательный табак NRG road Slim - Currant Mint, 10 гр (м)",
-      "price_rub": 255.0,
+      "price_rub": 258.0,
       "category": "Распродажа. Жевательный табак"
     },
     "cb5218f3-0b38-11f1-0a80-19c000376eac": {
       "name": "Жевательный табак NRG road Slim - Grapefruit Mint, 10 гр (м)",
-      "price_rub": 255.0,
+      "price_rub": 258.0,
       "category": "Распродажа. Жевательный табак"
     },
     "cb1cf35a-0b38-11f1-0a80-19c000376e8e": {
       "name": "Жевательный табак NRG road Slim - Mango Mint, 10 гр (м)",
-      "price_rub": 255.0,
+      "price_rub": 258.0,
       "category": "Распродажа. Жевательный табак"
     },
     "a496d40d-6c70-11f0-0a80-1598000ed640": {
       "name": "Жевательный табак ORN Medium Slim - Cold Dry, 12 гр (м)",
-      "price_rub": 266.8,
+      "price_rub": 270.8,
       "category": "Распродажа. Жевательный табак"
     },
     "a6abef6d-6c70-11f0-0a80-01b6000e3a99": {
       "name": "Жевательный табак ORN Medium Slim - Menthol, 12 гр (м)",
-      "price_rub": 266.8,
+      "price_rub": 270.8,
       "category": "Распродажа. Жевательный табак"
     },
     "95a584dd-6c70-11f0-0a80-0620000eba0e": {
       "name": "Жевательный табак ORN Strong Slim - Cold Dry, 12 гр (м)",
-      "price_rub": 266.8,
+      "price_rub": 270.8,
       "category": "Распродажа. Жевательный табак"
     },
     "29a25c78-e207-11ee-0a80-01b700075ea1": {
       "name": "Жевательный табак Siberia Silver Slim Currant, 10 гр (м)",
-      "price_rub": 327.0,
+      "price_rub": 258.0,
       "category": "Распродажа. Жевательный табак"
     },
     "0bf8ea92-f8ff-11ef-0a80-019a001216ba": {
       "name": "Жевательный табак Trava - Peppermint, 9 гр (м)",
-      "price_rub": 228.7,
+      "price_rub": 232.7,
       "category": "Распродажа. Жевательный табак"
     },
     "0b8e0378-f8ff-11ef-0a80-019a00121672": {
       "name": "Жевательный табак Trava Slim - Menthol, 9 гр (м)",
-      "price_rub": 228.7,
+      "price_rub": 232.7,
       "category": "Распродажа. Жевательный табак"
     },
     "0bafa69d-f8ff-11ef-0a80-019a0012168b": {
       "name": "Жевательный табак Trava Slim - Peppermint, 9 гр (м)",
-      "price_rub": 228.7,
+      "price_rub": 232.7,
       "category": "Распродажа. Жевательный табак"
     },
     "9532dd75-f8fe-11ef-0a80-15bc0011b941": {
       "name": "Жевательный табак Trava Strong - Peppermint, 9 гр (м)",
-      "price_rub": 228.7,
+      "price_rub": 232.7,
       "category": "Распродажа. Жевательный табак"
     },
     "89ab9e2f-f8fe-11ef-0a80-15bc0011b3ca": {
       "name": "Жевательный табак Trava Strong Slim - Menthol, 9 гр (м)",
-      "price_rub": 228.7,
+      "price_rub": 232.7,
       "category": "Распродажа. Жевательный табак"
     },
     "935ffda7-f8fe-11ef-0a80-02e400115477": {
       "name": "Жевательный табак Trava Strong Slim - Peppermint, 9 гр (м)",
-      "price_rub": 228.7,
+      "price_rub": 232.7,
       "category": "Распродажа. Жевательный табак"
     },
     "10e37669-6c6f-11f0-0a80-00c2000e1e8b": {
       "name": "Жевательный табак Volt Medium Classic - Ice slim, 9,5 гр (м)",
-      "price_rub": 241.35,
+      "price_rub": 245.35,
       "category": "Распродажа. Жевательный табак"
     },
     "0808f4e5-6c6f-11f0-0a80-1876000e2e09": {
       "name": "Жевательный табак Volt Medium Slim - Cold Dry, 9,5 гр (м)",
-      "price_rub": 241.35,
+      "price_rub": 245.35,
       "category": "Распродажа. Жевательный табак"
     },
     "e7dc9398-6c6f-11f0-0a80-0cb1000e16a9": {
       "name": "Жевательный табак Volt Mini - Eucalyptus Hyper Slim, 5,5 гр (м)",
-      "price_rub": 140.15,
+      "price_rub": 144.15,
       "category": "Распродажа. Жевательный табак"
     },
     "0813c3fd-6c70-11f0-0a80-00c2000e6945": {
       "name": "Жевательный табак Volt Mini - Polar mint Hyper Slim, 5,5 гр (м)",
-      "price_rub": 140.15,
+      "price_rub": 144.15,
       "category": "Распродажа. Жевательный табак"
     },
     "dbf631ae-6c6e-11f0-0a80-1a2a000e568f": {
       "name": "Жевательный табак Volt Strong Classic - White Dry, 9,5 гр (м)",
-      "price_rub": 241.35,
+      "price_rub": 245.35,
       "category": "Распродажа. Жевательный табак"
     },
     "9d87b030-93a8-11f0-0a80-1cc6000a11ba": {
       "name": "Жевательный табак ДОНБАСС - Chew Bags, 13 гр (м)",
-      "price_rub": 288.95,
+      "price_rub": 292.95,
       "category": "Распродажа. Жевательный табак"
     },
     "e852f29c-93a8-11f0-0a80-10f1000a8bd7": {
       "name": "Жевательный табак ДОНБАСС Strong - Cold Dry, 13 гр (м)",
-      "price_rub": 288.95,
+      "price_rub": 292.95,
       "category": "Распродажа. Жевательный табак"
     },
     "b71ca9cf-43d4-11ed-0a80-02f6000f7951": {
