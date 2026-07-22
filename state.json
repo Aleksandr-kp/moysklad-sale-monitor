@@ -481,11 +481,6 @@
       "price_rub": 254.0,
       "category": "Распродажа. Жевательный табак"
     },
-    "5118e941-52a1-11f0-0a80-15ea00278fdb": {
-      "name": "Жевательный табак Husky Strong Slim - Peppermint, 10 гр (м)",
-      "price_rub": 254.0,
-      "category": "Распродажа. Жевательный табак"
-    },
     "9e310c12-105c-11f0-0a80-07ea0019c3a4": {
       "name": "Жевательный табак IZI Slim - Cool Mint, 10 гр (м)",
       "price_rub": 254.0,
@@ -543,6 +538,11 @@
     },
     "a6abef6d-6c70-11f0-0a80-01b6000e3a99": {
       "name": "Жевательный табак ORN Medium Slim - Menthol, 12 гр (м)",
+      "price_rub": 266.8,
+      "category": "Распродажа. Жевательный табак"
+    },
+    "95a584dd-6c70-11f0-0a80-0620000eba0e": {
+      "name": "Жевательный табак ORN Strong Slim - Cold Dry, 12 гр (м)",
       "price_rub": 266.8,
       "category": "Распродажа. Жевательный табак"
     },
