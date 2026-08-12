@@ -581,6 +581,16 @@
       "price_rub": 288.95,
       "category": "Распродажа. Жевательный табак"
     },
+    "1beda746-c140-11f0-0a80-1bf7000a1776": {
+      "name": "Жевательный табак Husky Slim Limited - Bubble gum, 10 гр (м)",
+      "price_rub": 325.0,
+      "category": "Распродажа. Жевательный табак"
+    },
+    "f9ef3fc7-a03a-11ef-0a80-1508003deaa2": {
+      "name": "Жевательный табак Husky Strong Slim - Cherry, 10 гр (м)",
+      "price_rub": 254.0,
+      "category": "Распродажа. Жевательный табак"
+    },
     "72fcdd3f-8f7c-11ef-0a80-149c001bf78f": {
       "name": "Жевательный табак Husky Strong Slim - Mint, 10 гр (м)",
       "price_rub": 254.0,
@@ -694,6 +704,11 @@
     "e852f29c-93a8-11f0-0a80-10f1000a8bd7": {
       "name": "Жевательный табак ДОНБАСС Strong - Cold Dry, 13 гр (м)",
       "price_rub": 288.95,
+      "category": "Распродажа. Жевательный табак"
+    },
+    "3282d642-c088-11f0-0a80-01cb000e750c": {
+      "name": "Жевательный табак Siberia Silver Mini X2, 8 гр (20 пак)",
+      "price_rub": 279.65,
       "category": "Распродажа. Жевательный табак"
     }
   },
