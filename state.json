@@ -16,11 +16,6 @@
       "price_rub": 10.84,
       "category": "Распродажа. Табак для кальяна (1)"
     },
-    "ef8d48cd-a7c6-11ed-0a80-00e400172805": {
-      "name": "Duft - Guanabana (Сметанное яблоко), 80 гр (м)",
-      "price_rub": 300.0,
-      "category": "Распродажа. Табак для кальяна (1)"
-    },
     "e9c617d6-7a2e-11ee-0a80-0637000aebf8": {
       "name": "Duft - Maple syrup (Кленовый сироп), 80 гр (м)",
       "price_rub": 300.0,
@@ -74,11 +69,6 @@
     "fd749798-998c-11ee-0a80-02cd0007e669": {
       "name": "Sapphire Crown - Taro Ice cream (Мороженое Таро), 200 гр (м)",
       "price_rub": 10.0,
-      "category": "Распродажа. Табак для кальяна (1)"
-    },
-    "8c22dc30-a451-11f0-0a80-059100278c8d": {
-      "name": "Sebero Black - Fruit milkshake (фруктовый милкшейк), 200 гр (м)",
-      "price_rub": 10.9,
       "category": "Распродажа. Табак для кальяна (1)"
     },
     "70b51aac-7cd4-11f0-0a80-0dd90007333a": {
@@ -527,5 +517,5 @@
       "category": "Распродажа. Табак для кальяна (2)"
     }
   },
-  "last_heartbeat_date": "2026-09-20"
+  "last_heartbeat_date": "2026-09-26"
 }
