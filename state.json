@@ -3,7 +3,7 @@
   "products": {
     "33fac186-f2ae-11f0-0a80-18fe0005fb8f": {
       "name": "Bonche - New Year 2026 (какао, кленовый сиропы и корицы), 120 гр (м)",
-      "price_rub": 10.0,
+      "price_rub": 800.0,
       "category": "Распродажа. Табак для кальяна (1)"
     },
     "e9c617d6-7a2e-11ee-0a80-0637000aebf8": {
@@ -68,7 +68,7 @@
     },
     "d4fbd395-7ccc-11f0-0a80-143800052305": {
       "name": "Snobless Prime line - Mint Gum (мятная жвачка), 25 гр (м)",
-      "price_rub": 210.0,
+      "price_rub": 150.0,
       "category": "Распродажа. Табак для кальяна (1)"
     },
     "724a66b9-b0d0-11f0-0a80-1603000e0beb": {
@@ -492,5 +492,5 @@
       "category": "Распродажа. Табак для кальяна (2)"
     }
   },
-  "last_heartbeat_date": "2026-09-26"
+  "last_heartbeat_date": "2026-10-04"
 }
