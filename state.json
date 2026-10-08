@@ -51,6 +51,56 @@
       "price_rub": 14.0,
       "category": "Распродажа. Табак для кальяна (1)"
     },
+    "57a60f1c-f8cf-11ef-0a80-1a39000743ed": {
+      "name": "Mr. Brew Classic - Baikal of brew (лимонад байкал), 200 гр (м)",
+      "price_rub": 10.7,
+      "category": "Распродажа. Табак для кальяна (1)"
+    },
+    "64ff8ef3-f8cf-11ef-0a80-05eb0007996f": {
+      "name": "Mr. Brew Classic - Berry brew (ягодный морс), 200 гр (м)",
+      "price_rub": 10.7,
+      "category": "Распродажа. Табак для кальяна (1)"
+    },
+    "6d852d21-f8cf-11ef-0a80-0c050006e08f": {
+      "name": "Mr. Brew Classic - Brew candy (конфеты брю), 200 гр (м)",
+      "price_rub": 10.7,
+      "category": "Распродажа. Табак для кальяна (1)"
+    },
+    "08a242c8-b015-11f0-0a80-1bab00254b5d": {
+      "name": "Mr. Brew Classic - Brewherowka (травяной ликер), 200 гр (м)",
+      "price_rub": 10.7,
+      "category": "Распродажа. Табак для кальяна (1)"
+    },
+    "70b2a79f-f8cf-11ef-0a80-13c4000733bc": {
+      "name": "Mr. Brew Classic - Citrus tea (зеленый чай с лимоном), 200 гр (м)",
+      "price_rub": 10.7,
+      "category": "Распродажа. Табак для кальяна (1)"
+    },
+    "eb57b97b-f8d5-11ef-0a80-18c20008fb38": {
+      "name": "Mr. Brew Classic - Pomelove (помело), 200 гр (м)",
+      "price_rub": 10.7,
+      "category": "Распродажа. Табак для кальяна (1)"
+    },
+    "eb852b58-f8d5-11ef-0a80-18c20008fb53": {
+      "name": "Mr. Brew Classic - Sweet drink (сливочный энергетик с земляникой), 200 гр (м)",
+      "price_rub": 10.7,
+      "category": "Распродажа. Табак для кальяна (1)"
+    },
+    "6af48539-f8cf-11ef-0a80-1a3900074719": {
+      "name": "Mr. Brew Foam - Blanche de brew (пшеничное пиво), 200 гр (м)",
+      "price_rub": 10.7,
+      "category": "Распродажа. Табак для кальяна (1)"
+    },
+    "70e177af-f8cf-11ef-0a80-13c4000733dd": {
+      "name": "Mr. Brew Foam - Ipa (индийский аромат ипа), 200 гр (м)",
+      "price_rub": 10.7,
+      "category": "Распродажа. Табак для кальяна (1)"
+    },
+    "eba97054-f8d5-11ef-0a80-18c20008fb6a": {
+      "name": "Mr. Brew Foam - Stout (темное пиво), 200 гр (м)",
+      "price_rub": 10.7,
+      "category": "Распродажа. Табак для кальяна (1)"
+    },
     "87788a21-8613-11ef-0a80-070300086a88": {
       "name": "Sapphire Crown - Blueberry Granola (Черничная гранола), 200 гр (м)",
       "price_rub": 10.0,
@@ -138,37 +188,37 @@
     },
     "3a8b3543-50ff-11f0-0a80-081900110cc6": {
       "name": "Husky - Black currant (черная смородина), 25 гр (м)",
-      "price_rub": 150.0,
+      "price_rub": 120.0,
       "category": "Распродажа. Табак для кальяна (2)"
     },
     "34ac3460-50ff-11f0-0a80-13e500112f28": {
       "name": "Husky - Caipirinha (кайпиринья), 25 гр (м)",
-      "price_rub": 150.0,
+      "price_rub": 120.0,
       "category": "Распродажа. Табак для кальяна (2)"
     },
     "37765690-50ff-11f0-0a80-081900110c55": {
       "name": "Husky - Grapefruit (грейпфрут), 25 гр (м)",
-      "price_rub": 150.0,
+      "price_rub": 120.0,
       "category": "Распродажа. Табак для кальяна (2)"
     },
     "2b169044-50ff-11f0-0a80-00cb0010e364": {
       "name": "Husky - Ice Cool (ледяная прохлада), 25 гр (м)",
-      "price_rub": 150.0,
+      "price_rub": 120.0,
       "category": "Распродажа. Табак для кальяна (2)"
     },
     "3b0c5d54-50ff-11f0-0a80-081900110d1a": {
       "name": "Husky - Passion Fruit (маракуйя), 25 гр (м)",
-      "price_rub": 150.0,
+      "price_rub": 120.0,
       "category": "Распродажа. Табак для кальяна (2)"
     },
     "3cb5e8f9-50ff-11f0-0a80-18e400112880": {
       "name": "Husky - Pineapple (ананас), 25 гр (м)",
-      "price_rub": 150.0,
+      "price_rub": 120.0,
       "category": "Распродажа. Табак для кальяна (2)"
     },
     "3cde7725-50ff-11f0-0a80-18e40011289a": {
       "name": "Husky - Raspberry (малина), 25 гр (м)",
-      "price_rub": 150.0,
+      "price_rub": 120.0,
       "category": "Распродажа. Табак для кальяна (2)"
     },
     "a71577ee-59c7-11f0-0a80-096b001b0304": {
@@ -206,8 +256,73 @@
       "price_rub": 160.0,
       "category": "Распродажа. Табак для кальяна (2)"
     },
+    "95b055b6-f8c9-11ef-0a80-13c40005ecf7": {
+      "name": "Mr. Brew Classic - Berry brew (ягодный морс), 25 гр (м)",
+      "price_rub": 175.0,
+      "category": "Распродажа. Табак для кальяна (2)"
+    },
     "041ba134-b014-11f0-0a80-0ef20025f041": {
       "name": "Mr. Brew Classic - Brewherowka (брюхеровка), 25 гр (м)",
+      "price_rub": 175.0,
+      "category": "Распродажа. Табак для кальяна (2)"
+    },
+    "a85415c0-1a49-11ee-0a80-1120000a6389": {
+      "name": "Mr. Brew Classic - Colaba (кола - ментос), 25 гр (м)",
+      "price_rub": 175.0,
+      "category": "Распродажа. Табак для кальяна (2)"
+    },
+    "964d637e-f8c9-11ef-0a80-13c40005ed88": {
+      "name": "Mr. Brew Classic - Fructus (клубника кактус фейхоа), 25 гр (м)",
+      "price_rub": 175.0,
+      "category": "Распродажа. Табак для кальяна (2)"
+    },
+    "20418c5c-f8cc-11ef-0a80-104c0006a528": {
+      "name": "Mr. Brew Classic - Kedr (кедровые шишки), 25 гр (м)",
+      "price_rub": 175.0,
+      "category": "Распродажа. Табак для кальяна (2)"
+    },
+    "206f6609-f8cc-11ef-0a80-104c0006a543": {
+      "name": "Mr. Brew Classic - Melopaya (арбуз и папайя), 25 гр (м)",
+      "price_rub": 175.0,
+      "category": "Распродажа. Табак для кальяна (2)"
+    },
+    "20c01259-f8cc-11ef-0a80-104c0006a584": {
+      "name": "Mr. Brew Classic - Omnomnas (ананас), 25 гр (м)",
+      "price_rub": 175.0,
+      "category": "Распродажа. Табак для кальяна (2)"
+    },
+    "39f5ddd9-19f0-11f0-0a80-175b000e375c": {
+      "name": "Mr. Brew Classic - Raspberry soda (малиновая газировка), 25 гр (м)",
+      "price_rub": 175.0,
+      "category": "Распродажа. Табак для кальяна (2)"
+    },
+    "7335c2b1-3258-11f0-0a80-00db00238e49": {
+      "name": "Mr. Brew Classic - Strawberria (клубника земляника), 25 гр (м)",
+      "price_rub": 175.0,
+      "category": "Распродажа. Табак для кальяна (2)"
+    },
+    "bd5381f9-b014-11f0-0a80-10db00261609": {
+      "name": "Mr. Brew Classic - Tropic soda (тропик сода), 25 гр (м)",
+      "price_rub": 175.0,
+      "category": "Распродажа. Табак для кальяна (2)"
+    },
+    "95d4bd6b-f8c9-11ef-0a80-13c40005ed24": {
+      "name": "Mr. Brew Foam - Blanche de brew (пшеничное пиво), 25 гр (м)",
+      "price_rub": 175.0,
+      "category": "Распродажа. Табак для кальяна (2)"
+    },
+    "95fb1f6b-f8c9-11ef-0a80-13c40005ed3d": {
+      "name": "Mr. Brew Foam - Combuchai (чайный гриб комбуча), 25 гр (м)",
+      "price_rub": 175.0,
+      "category": "Распродажа. Табак для кальяна (2)"
+    },
+    "2146207f-f8cc-11ef-0a80-104c0006a5dc": {
+      "name": "Mr. Brew Foam - Kriek (вишневое пиво), 25 гр (м)",
+      "price_rub": 175.0,
+      "category": "Распродажа. Табак для кальяна (2)"
+    },
+    "21f88053-f8cc-11ef-0a80-104c0006a646": {
+      "name": "Mr. Brew Foam - Perry cider (грушевый сидр), 25 гр (м)",
       "price_rub": 175.0,
       "category": "Распродажа. Табак для кальяна (2)"
     },
