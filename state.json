@@ -31,11 +31,6 @@
       "price_rub": 734.0,
       "category": "Распродажа. Табак для кальяна (1)"
     },
-    "87788a21-8613-11ef-0a80-070300086a88": {
-      "name": "Sapphire Crown - Blueberry Granola (Черничная гранола), 200 гр (м)",
-      "price_rub": 10.0,
-      "category": "Распродажа. Табак для кальяна (1)"
-    },
     "da3bd557-a55f-11ee-0a80-1387000a6b84": {
       "name": "Sapphire Crown - Indian Stuff (паан и ягоды), 200 гр (м)",
       "price_rub": 10.0,
@@ -151,6 +146,11 @@
       "price_rub": 120.0,
       "category": "Распродажа. Табак для кальяна (2)"
     },
+    "a71577ee-59c7-11f0-0a80-096b001b0304": {
+      "name": "Hypreme Black Mix 6 - Маргарита, Малиновая гранита, 40 гр (м)",
+      "price_rub": 240.0,
+      "category": "Распродажа. Табак для кальяна (2)"
+    },
     "4fdcba39-8d4f-11f0-0a80-19370006bf1d": {
       "name": "Hypreme Black - Черный чай, 40 гр (м)",
       "price_rub": 240.0,
@@ -244,56 +244,6 @@
     "21f88053-f8cc-11ef-0a80-104c0006a646": {
       "name": "Mr. Brew Foam - Perry cider (грушевый сидр), 25 гр (м)",
       "price_rub": 130.0,
-      "category": "Распродажа. Табак для кальяна (2)"
-    },
-    "8aacaee6-978e-11f0-0a80-1bbe002b6efc": {
-      "name": "Sapphire Crown - Bombay (Джин с можжевельником и огурцом), 25 гр (м)",
-      "price_rub": 160.0,
-      "category": "Распродажа. Табак для кальяна (2)"
-    },
-    "185996eb-0d47-11ef-0a80-0bdf0016e8d8": {
-      "name": "Sapphire Crown - Grapefruit (Грейпфрут), 25 гр (м)",
-      "price_rub": 145.0,
-      "category": "Распродажа. Табак для кальяна (2)"
-    },
-    "f3fefabb-8378-11ed-0a80-07fe0035d4c5": {
-      "name": "Sapphire Crown - Greender (Травяной микс), 25 гр (м)",
-      "price_rub": 160.0,
-      "category": "Распродажа. Табак для кальяна (2)"
-    },
-    "1a6346c3-528a-11ec-0a80-09550017641b": {
-      "name": "Sapphire Crown - Hazelnut (Лесной орех), 25 гр (м)",
-      "price_rub": 160.0,
-      "category": "Распродажа. Табак для кальяна (2)"
-    },
-    "da04b9ee-cc2d-11f0-0a80-0286001a8841": {
-      "name": "Sapphire Crown - Lemon lime (Лимон, лайм), 25 гр (м)",
-      "price_rub": 160.0,
-      "category": "Распродажа. Табак для кальяна (2)"
-    },
-    "f535c757-bd29-11ef-0a80-0384001fd33e": {
-      "name": "Sapphire Crown - Margarita (Маргарита), 25 гр (м)",
-      "price_rub": 145.0,
-      "category": "Распродажа. Табак для кальяна (2)"
-    },
-    "68f3e62c-cc2c-11f0-0a80-11e9001b6822": {
-      "name": "Sapphire Crown - Riesling (Белое вино), 25 гр (м)",
-      "price_rub": 160.0,
-      "category": "Распродажа. Табак для кальяна (2)"
-    },
-    "d7ffb869-978e-11f0-0a80-16d9002c99f2": {
-      "name": "Sapphire Crown - Siberian tonic (Тоник с елью и кедром), 25 гр (м)",
-      "price_rub": 160.0,
-      "category": "Распродажа. Табак для кальяна (2)"
-    },
-    "d3f58cc1-d3c4-11ed-0a80-046d0013bc63": {
-      "name": "Sapphire Crown - Sunny Peach (Персик), 25 гр (м)",
-      "price_rub": 160.0,
-      "category": "Распродажа. Табак для кальяна (2)"
-    },
-    "bf13a528-217d-11ee-0a80-08c700252861": {
-      "name": "Sapphire Crown - Taro Ice cream (Мороженое Таро), 25 гр (м)",
-      "price_rub": 145.0,
       "category": "Распродажа. Табак для кальяна (2)"
     },
     "165c47c4-4d1c-11f0-0a80-0def00134da8": {
@@ -507,5 +457,5 @@
       "category": "Распродажа. Табак для кальяна (2)"
     }
   },
-  "last_heartbeat_date": "2026-10-27"
+  "last_heartbeat_date": "2026-10-31"
 }
