@@ -3,17 +3,17 @@
   "products": {
     "e5c635b8-5b06-11f0-0a80-0dc80027b042": {
       "name": "Hypreme Special - Froig, 200 гр (м)",
-      "price_rub": 18.0,
+      "price_rub": 10.0,
       "category": "Распродажа. Табак для кальяна (1)"
     },
     "ce2570b1-5b05-11f0-0a80-05a90027fca1": {
       "name": "Hypreme Special - Hustla, 200 гр (м)",
-      "price_rub": 10.4,
+      "price_rub": 10.0,
       "category": "Распродажа. Табак для кальяна (1)"
     },
     "e947e7b0-5b06-11f0-0a80-0dc80027b133": {
       "name": "Hypreme Special - Jaku, 200 гр (м)",
-      "price_rub": 18.0,
+      "price_rub": 10.0,
       "category": "Распродажа. Табак для кальяна (1)"
     },
     "11b334ac-a451-11f0-0a80-03c300278ad7": {
@@ -36,6 +36,26 @@
       "price_rub": 10.0,
       "category": "Распродажа. Табак для кальяна (1)"
     },
+    "8a074f86-7cd3-11f0-0a80-0c8c0007328f": {
+      "name": "Snobless Prime line - Creme brulee (крем - брюле), 100 гр (м)",
+      "price_rub": 550.0,
+      "category": "Распродажа. Табак для кальяна (1)"
+    },
+    "70e3754c-7cd4-11f0-0a80-0dd900073367": {
+      "name": "Snobless Prime line - Mint Gum (мятная жвачка), 100 гр (м)",
+      "price_rub": 550.0,
+      "category": "Распродажа. Табак для кальяна (1)"
+    },
+    "1f5072a5-7cd0-11f0-0a80-15260006771c": {
+      "name": "Snobless Vibes line - Lavender Cappuccino (лавандовый капучино), 100 гр (м)",
+      "price_rub": 550.0,
+      "category": "Распродажа. Табак для кальяна (1)"
+    },
+    "d8d01eba-7cd1-11f0-0a80-0c8c0006d729": {
+      "name": "Snobless Vibes line - Pumpkin raf - coffee (тыквенный раф), 100 гр (м)",
+      "price_rub": 550.0,
+      "category": "Распродажа. Табак для кальяна (1)"
+    },
     "e54ebdd3-d5de-11ec-0a80-041d000e6a12": {
       "name": "Spectrum Hard - Current crush (черная смородина), 200 гр (м)",
       "price_rub": 15.0,
@@ -49,6 +69,11 @@
     "d0be2613-fb7a-11f0-0a80-14bb000ee3d3": {
       "name": "Ветер Северный Professional - Ассам, 200 гр (м)",
       "price_rub": 10.5,
+      "category": "Распродажа. Табак для кальяна (1)"
+    },
+    "80001ef5-ae27-11ef-0a80-0d89008ea0a5": {
+      "name": "Сарма 360 Крепкая - Кукуруза - Паприка, 200 гр (м) !",
+      "price_rub": 15.3,
       "category": "Распродажа. Табак для кальяна (1)"
     },
     "d5bc3a0c-e47e-11ef-0a80-07a4000cadef": {
@@ -73,342 +98,402 @@
     },
     "c9e963f1-978f-11f0-0a80-16d9002cd46b": {
       "name": "BLISS - Базилик, 40 гр (м)",
-      "price_rub": 153.0,
+      "price_rub": 152.76,
       "category": "Распродажа. Табак для кальяна (2)"
     },
     "b27b3719-a001-11ef-0a80-079d002f5440": {
       "name": "BLISS - Лимончелло, 40 гр (м)",
-      "price_rub": 153.0,
+      "price_rub": 152.76,
       "category": "Распродажа. Табак для кальяна (2)"
     },
     "2b27ed02-1e81-11f0-0a80-07320013fa09": {
       "name": "BLISS - Сливочный крем, 40 гр (м)",
-      "price_rub": 153.0,
+      "price_rub": 152.76,
       "category": "Распродажа. Табак для кальяна (2)"
     },
     "35cc6645-751a-11ef-0a80-16e5001c11b7": {
       "name": "BLISS - Черничный сорбет, 40 гр (м)",
-      "price_rub": 153.0,
+      "price_rub": 152.76,
       "category": "Распродажа. Табак для кальяна (2)"
     },
     "c3a5a960-f2ad-11f0-0a80-1be700058a8a": {
       "name": "Bonche - New Year 2026 (какао, кленовый сироп и корица), 30 гр (м)",
-      "price_rub": 545.0,
+      "price_rub": 114.82,
       "category": "Распродажа. Табак для кальяна (2)"
     },
     "34ac3460-50ff-11f0-0a80-13e500112f28": {
       "name": "Husky - Caipirinha (кайпиринья), 25 гр (м)",
-      "price_rub": 120.0,
+      "price_rub": 111.67,
       "category": "Распродажа. Табак для кальяна (2)"
     },
     "37765690-50ff-11f0-0a80-081900110c55": {
       "name": "Husky - Grapefruit (грейпфрут), 25 гр (м)",
-      "price_rub": 120.0,
+      "price_rub": 111.67,
       "category": "Распродажа. Табак для кальяна (2)"
     },
     "3cb5e8f9-50ff-11f0-0a80-18e400112880": {
       "name": "Husky - Pineapple (ананас), 25 гр (м)",
-      "price_rub": 120.0,
+      "price_rub": 111.67,
+      "category": "Распродажа. Табак для кальяна (2)"
+    },
+    "a71577ee-59c7-11f0-0a80-096b001b0304": {
+      "name": "Hypreme Black Mix 6 - Маргарита, Малиновая гранита, 40 гр (м)",
+      "price_rub": 152.76,
       "category": "Распродажа. Табак для кальяна (2)"
     },
     "4fdcba39-8d4f-11f0-0a80-19370006bf1d": {
       "name": "Hypreme Black - Черный чай, 40 гр (м)",
-      "price_rub": 240.0,
+      "price_rub": 152.76,
       "category": "Распродажа. Табак для кальяна (2)"
     },
     "d12c6a26-59b5-11f0-0a80-0683001a2b77": {
       "name": "Hypreme Mix - Банан, Сливки, Клубника, 25 гр (м)",
-      "price_rub": 150.0,
+      "price_rub": 111.67,
       "category": "Распродажа. Табак для кальяна (2)"
     },
     "a24d1ac2-59b8-11f0-0a80-1ac9001a8fc5": {
       "name": "Hypreme Red - 2+1 Threesome (Ягодный микс), 40 гр (м)",
-      "price_rub": 240.0,
+      "price_rub": 152.76,
       "category": "Распродажа. Табак для кальяна (2)"
     },
     "095385ea-4d19-11f0-0a80-18880012ba4e": {
       "name": "JENT - Blue Hawaii (Голубые Гавайи), 25 гр (м)",
-      "price_rub": 160.0,
+      "price_rub": 114.82,
       "category": "Распродажа. Табак для кальяна (2)"
     },
     "c7a810c9-0331-11f0-0a80-15d500339c1d": {
       "name": "Jent Cigar - Манго - абрикос, 20 гр (м)",
-      "price_rub": 390.0,
+      "price_rub": 89.54,
       "category": "Распродажа. Табак для кальяна (2)"
     },
     "510a361f-a32b-11ef-0a80-107c000913e3": {
       "name": "Jent Cigar - Односолодовый виски, 20 гр (м)",
-      "price_rub": 310.0,
+      "price_rub": 89.54,
       "category": "Распродажа. Табак для кальяна (2)"
     },
     "d33992d5-e7c3-11ef-0a80-015d0036258b": {
       "name": "Jent Cigar - Шоколадная конфета с вишневым ликером, 20 гр (м)",
-      "price_rub": 310.0,
+      "price_rub": 89.54,
       "category": "Распродажа. Табак для кальяна (2)"
     },
     "b6fce422-5c05-11f0-0a80-0dc8004820c5": {
       "name": "JENT - Cookie Bush (Печенье с ревнем), 25 гр (м)",
-      "price_rub": 160.0,
+      "price_rub": 114.82,
       "category": "Распродажа. Табак для кальяна (2)"
     },
     "1b66050d-7464-11f0-0a80-186000108f63": {
       "name": "JENT - Cuba Libre (Куба либре), 25 гр (м)",
-      "price_rub": 160.0,
+      "price_rub": 114.82,
+      "category": "Распродажа. Табак для кальяна (2)"
+    },
+    "95b055b6-f8c9-11ef-0a80-13c40005ecf7": {
+      "name": "Mr. Brew Classic - Berry brew (ягодный морс), 25 гр (м)",
+      "price_rub": 111.67,
       "category": "Распродажа. Табак для кальяна (2)"
     },
     "041ba134-b014-11f0-0a80-0ef20025f041": {
       "name": "Mr. Brew Classic - Brewherowka (брюхеровка), 25 гр (м)",
-      "price_rub": 130.0,
+      "price_rub": 111.67,
       "category": "Распродажа. Табак для кальяна (2)"
     },
     "a85415c0-1a49-11ee-0a80-1120000a6389": {
       "name": "Mr. Brew Classic - Colaba (кола - ментос), 25 гр (м)",
-      "price_rub": 130.0,
+      "price_rub": 111.67,
       "category": "Распродажа. Табак для кальяна (2)"
     },
     "964d637e-f8c9-11ef-0a80-13c40005ed88": {
       "name": "Mr. Brew Classic - Fructus (клубника кактус фейхоа), 25 гр (м)",
-      "price_rub": 130.0,
+      "price_rub": 111.67,
       "category": "Распродажа. Табак для кальяна (2)"
     },
     "206f6609-f8cc-11ef-0a80-104c0006a543": {
       "name": "Mr. Brew Classic - Melopaya (арбуз и папайя), 25 гр (м)",
-      "price_rub": 130.0,
+      "price_rub": 111.67,
       "category": "Распродажа. Табак для кальяна (2)"
     },
     "39f5ddd9-19f0-11f0-0a80-175b000e375c": {
       "name": "Mr. Brew Classic - Raspberry soda (малиновая газировка), 25 гр (м)",
-      "price_rub": 130.0,
+      "price_rub": 111.67,
       "category": "Распродажа. Табак для кальяна (2)"
     },
     "7335c2b1-3258-11f0-0a80-00db00238e49": {
       "name": "Mr. Brew Classic - Strawberria (клубника земляника), 25 гр (м)",
-      "price_rub": 130.0,
+      "price_rub": 111.67,
       "category": "Распродажа. Табак для кальяна (2)"
     },
     "95d4bd6b-f8c9-11ef-0a80-13c40005ed24": {
       "name": "Mr. Brew Foam - Blanche de brew (пшеничное пиво), 25 гр (м)",
-      "price_rub": 130.0,
+      "price_rub": 111.67,
       "category": "Распродажа. Табак для кальяна (2)"
     },
     "95fb1f6b-f8c9-11ef-0a80-13c40005ed3d": {
       "name": "Mr. Brew Foam - Combuchai (чайный гриб комбуча), 25 гр (м)",
-      "price_rub": 130.0,
+      "price_rub": 111.67,
       "category": "Распродажа. Табак для кальяна (2)"
     },
     "21f88053-f8cc-11ef-0a80-104c0006a646": {
       "name": "Mr. Brew Foam - Perry cider (грушевый сидр), 25 гр (м)",
-      "price_rub": 130.0,
+      "price_rub": 111.67,
+      "category": "Распродажа. Табак для кальяна (2)"
+    },
+    "110f9ab4-b024-11f0-0a80-082f0028522a": {
+      "name": "Palitra Classic - Cola (кола), 40 гр (м)",
+      "price_rub": 152.76,
+      "category": "Распродажа. Табак для кальяна (2)"
+    },
+    "c3196fd6-4aa7-11f0-0a80-04f3004d1b31": {
+      "name": "Palitra Classic - Corn Hub (кукуруза ), 40 гр (м)",
+      "price_rub": 152.76,
       "category": "Распродажа. Табак для кальяна (2)"
     },
     "165c47c4-4d1c-11f0-0a80-0def00134da8": {
       "name": "Sebero Classic - Pudding (Пудинг), 25 гр (м)",
-      "price_rub": 155.0,
+      "price_rub": 111.67,
       "category": "Распродажа. Табак для кальяна (2)"
     },
     "62cb2628-7c47-11f0-0a80-077d004bb471": {
       "name": "Snobless Prime line - Blackberry (Ежевика), 25 гр (м)",
-      "price_rub": 130.0,
+      "price_rub": 111.67,
       "category": "Распродажа. Табак для кальяна (2)"
     },
     "67069a5c-7c47-11f0-0a80-05d400493c8e": {
       "name": "Snobless Prime line - Cognac (Коньяк), 25 гр (м)",
-      "price_rub": 130.0,
+      "price_rub": 111.67,
       "category": "Распродажа. Табак для кальяна (2)"
     },
     "67357bf4-7c47-11f0-0a80-05d400493cb0": {
       "name": "Snobless Prime line - Creme brulee (крем - брюле), 25 гр (м)",
-      "price_rub": 130.0,
+      "price_rub": 111.67,
       "category": "Распродажа. Табак для кальяна (2)"
     },
     "653c76ef-7c47-11f0-0a80-08a00049b520": {
       "name": "Snobless Prime line - Dogwood (Кизил), 25 гр (м)",
-      "price_rub": 130.0,
+      "price_rub": 111.67,
       "category": "Распродажа. Табак для кальяна (2)"
     },
     "fab360b5-7c46-11f0-0a80-1434004a9194": {
       "name": "Snobless Prime line - Gardenia (Гардения), 25 гр (м)",
-      "price_rub": 130.0,
+      "price_rub": 111.67,
       "category": "Распродажа. Табак для кальяна (2)"
     },
     "651102f4-7c47-11f0-0a80-08a00049b501": {
       "name": "Snobless Prime line - Lime (Лайм), 25 гр (м)",
-      "price_rub": 130.0,
+      "price_rub": 111.67,
       "category": "Распродажа. Табак для кальяна (2)"
     },
     "673f1fde-c071-11f0-0a80-1bf30009a662": {
       "name": "Snobless Prime line - Lychee (Личи), 25 гр (м)",
-      "price_rub": 130.0,
+      "price_rub": 111.67,
       "category": "Распродажа. Табак для кальяна (2)"
     },
     "66da1da5-7c47-11f0-0a80-05d400493c65": {
       "name": "Snobless Prime line - Mango (Манго), 25 гр (м)",
-      "price_rub": 130.0,
+      "price_rub": 111.67,
       "category": "Распродажа. Табак для кальяна (2)"
     },
     "d4fbd395-7ccc-11f0-0a80-143800052305": {
       "name": "Snobless Prime line - Mint Gum (мятная жвачка), 25 гр (м)",
-      "price_rub": 150.0,
+      "price_rub": 111.67,
       "category": "Распродажа. Табак для кальяна (2)"
     },
     "d5dd5a3e-c06f-11f0-0a80-139800098597": {
       "name": "Snobless Prime line - Peanut (Арахис), 25 гр (м)",
-      "price_rub": 130.0,
+      "price_rub": 111.67,
       "category": "Распродажа. Табак для кальяна (2)"
     },
     "3ec39957-c070-11f0-0a80-19320009a42f": {
       "name": "Snobless Prime line - Strawberry (Клубника), 25 гр (м)",
-      "price_rub": 130.0,
+      "price_rub": 111.67,
       "category": "Распродажа. Табак для кальяна (2)"
     },
     "5d4981f9-1c52-11f1-0a80-03820038092d": {
       "name": "Snobless Special line - Camphor, Wood, Vanilla (камфора, дерево & ваниль), 25 гр (м)",
-      "price_rub": 210.0,
+      "price_rub": 111.67,
       "category": "Распродажа. Табак для кальяна (2)"
     },
     "86769dcd-7c45-11f0-0a80-09f20049ad6c": {
       "name": "Snobless Vibes line - Banana Waffles (Банановые вафли), 25 гр (м)",
-      "price_rub": 130.0,
+      "price_rub": 111.67,
       "category": "Распродажа. Табак для кальяна (2)"
     },
     "2caf9b83-7c46-11f0-0a80-1732004a812a": {
       "name": "Snobless Vibes line - Gooseberry, cucumber & pine (Крыжовник, огурец, сосна), 25 гр (м)",
-      "price_rub": 130.0,
+      "price_rub": 111.67,
       "category": "Распродажа. Табак для кальяна (2)"
     },
     "484ea578-c070-11f0-0a80-0e1a0009ddf0": {
       "name": "Snobless Vibes line - Guava & Energy drink (Гуава & Энергетик), 25 гр (м)",
-      "price_rub": 130.0,
+      "price_rub": 111.67,
       "category": "Распродажа. Табак для кальяна (2)"
     },
     "8cb9e991-7c45-11f0-0a80-01e00048c9ca": {
       "name": "Snobless Vibes line - Hawthorn Rosehip (Боярышник и шиповник), 25 гр (м)",
-      "price_rub": 130.0,
+      "price_rub": 111.67,
       "category": "Распродажа. Табак для кальяна (2)"
     },
     "8f301a01-7c45-11f0-0a80-15210049a949": {
       "name": "Snobless Vibes line - Kiwi Feijoa (Киви и фейхоа), 25 гр (м)",
-      "price_rub": 130.0,
+      "price_rub": 111.67,
       "category": "Распродажа. Табак для кальяна (2)"
     },
     "e5d13001-c070-11f0-0a80-031b000a0b31": {
       "name": "Snobless Vibes line - Sundae, Walnut & Marple Syrup (пломбир, грецкий орех и кленовый сироп), 25 гр",
-      "price_rub": 130.0,
+      "price_rub": 111.67,
       "category": "Распродажа. Табак для кальяна (2)"
     },
     "57c3be61-f8e8-11ef-0a80-1423000d1b99": {
       "name": "Spectrum Classic - Apple Cider (Яблочный сидр), 25 гр (м)",
-      "price_rub": 160.0,
+      "price_rub": 111.67,
       "category": "Распродажа. Табак для кальяна (2)"
     },
     "aa27c429-a454-11f0-0a80-07b600282a93": {
       "name": "Spectrum Classic - Sweet pumpkin (сладкая тыква), 25 гр (м)",
-      "price_rub": 160.0,
+      "price_rub": 111.67,
       "category": "Распродажа. Табак для кальяна (2)"
     },
     "b98c5512-3aeb-11f0-0a80-014a000d9891": {
       "name": "Spectrum Hard - Gooseberry (Крыжовник), 25 гр (м)",
-      "price_rub": 120.0,
+      "price_rub": 111.67,
       "category": "Распродажа. Табак для кальяна (2)"
     },
     "4660a03e-87f3-11f0-0a80-05f1000ef7e2": {
       "name": "Spectrum Hard - Milky Yogurt (Сливочный йогурт), 25 гр (м)",
-      "price_rub": 160.0,
+      "price_rub": 111.67,
+      "category": "Распродажа. Табак для кальяна (2)"
+    },
+    "1b85950b-cd7a-11ed-0a80-0ffc0014cf04": {
+      "name": "Spectrum Hard - Morning mango (овсяная каша - манго), 25 гр (м) !",
+      "price_rub": 111.67,
       "category": "Распродажа. Табак для кальяна (2)"
     },
     "4026cae6-8f17-11f0-0a80-17c8001257cf": {
       "name": "SPLIT - Beach Loafer (кисло - сладкий ананас), 25 гр (м)",
-      "price_rub": 120.0,
+      "price_rub": 111.67,
       "category": "Распродажа. Табак для кальяна (2)"
     },
     "4f8c5e07-8f17-11f0-0a80-005400118486": {
       "name": "SPLIT - El Gringo (грейпфрутовый лимонад), 25 гр (м)",
-      "price_rub": 120.0,
+      "price_rub": 111.67,
       "category": "Распродажа. Табак для кальяна (2)"
     },
     "523c9042-8f17-11f0-0a80-0cb60011baea": {
       "name": "SPLIT - Gunskeeper (гранатовый фреш), 25 гр (м)",
-      "price_rub": 120.0,
+      "price_rub": 111.67,
       "category": "Распродажа. Табак для кальяна (2)"
     },
     "5510d685-8f17-11f0-0a80-0146000fdac9": {
       "name": "SPLIT - Libertina (дикая малина), 25 гр (м)",
-      "price_rub": 120.0,
+      "price_rub": 111.67,
       "category": "Распродажа. Табак для кальяна (2)"
     },
     "57f5e737-8f17-11f0-0a80-07130011b974": {
       "name": "SPLIT - Lumberjack (хвоя и лемонграсс), 25 гр (м)",
-      "price_rub": 120.0,
+      "price_rub": 111.67,
       "category": "Распродажа. Табак для кальяна (2)"
     },
     "52133d0a-8f17-11f0-0a80-0cb60011baca": {
       "name": "SPLIT - Tila Manila (сочный манго), 25 гр (м)",
-      "price_rub": 120.0,
+      "price_rub": 111.67,
       "category": "Распродажа. Табак для кальяна (2)"
     },
     "54c0c19c-8f17-11f0-0a80-0146000fda8f": {
       "name": "SPLIT - Wild Wizard (виноградный сорбет), 25 гр (м)",
-      "price_rub": 120.0,
+      "price_rub": 111.67,
+      "category": "Распродажа. Табак для кальяна (2)"
+    },
+    "78adce88-f9ca-11f0-0a80-1c03000cf745": {
+      "name": "Swag - Арахис и ром, 25 гр (м)",
+      "price_rub": 111.67,
+      "category": "Распродажа. Табак для кальяна (2)"
+    },
+    "830a852b-f9ca-11f0-0a80-0c65000c778c": {
+      "name": "Swag - Бурбон, 25 гр (м)",
+      "price_rub": 111.67,
       "category": "Распродажа. Табак для кальяна (2)"
     },
     "85105ba4-f9ca-11f0-0a80-1b32000c8654": {
       "name": "Swag - Виноград и мята, 25 гр (м)",
-      "price_rub": 155.0,
+      "price_rub": 111.67,
       "category": "Распродажа. Табак для кальяна (2)"
     },
     "8871407d-f9ca-11f0-0a80-1641000cf55d": {
       "name": "Swag - Гранат, 25 гр (м)",
-      "price_rub": 155.0,
+      "price_rub": 111.67,
+      "category": "Распродажа. Табак для кальяна (2)"
+    },
+    "884288cd-f9ca-11f0-0a80-1641000cf541": {
+      "name": "Swag - Карамельный табак, 25 гр (м)",
+      "price_rub": 111.67,
       "category": "Распродажа. Табак для кальяна (2)"
     },
     "88a4b03f-f9ca-11f0-0a80-1641000cf57e": {
       "name": "Swag - Кукуруза, 25 гр (м)",
-      "price_rub": 155.0,
+      "price_rub": 111.67,
+      "category": "Распродажа. Табак для кальяна (2)"
+    },
+    "84d1a264-f9ca-11f0-0a80-1b32000c8636": {
+      "name": "Swag - Лимон, 25 гр (м)",
+      "price_rub": 111.67,
+      "category": "Распродажа. Табак для кальяна (2)"
+    },
+    "8811f559-f9ca-11f0-0a80-1641000cf525": {
+      "name": "Swag - Молоко, 25 гр (м)",
+      "price_rub": 111.67,
+      "category": "Распродажа. Табак для кальяна (2)"
+    },
+    "53d7b087-f9cb-11f0-0a80-0c65000c8200": {
+      "name": "Swag - Хурма, 25 гр (м)",
+      "price_rub": 111.67,
+      "category": "Распродажа. Табак для кальяна (2)"
+    },
+    "5411bc17-f9cb-11f0-0a80-0c65000c821c": {
+      "name": "Swag - Эвкалипт, 25 гр (м)",
+      "price_rub": 111.67,
       "category": "Распродажа. Табак для кальяна (2)"
     },
     "c17be8a2-2f04-11f0-0a80-14c600429af5": {
       "name": "Vinyl Medium - Britney Pears (Яблоко, груша, мята), 20 гр (м)",
-      "price_rub": 120.0,
+      "price_rub": 89.54,
       "category": "Распродажа. Табак для кальяна (2)"
     },
     "4985c12a-8a00-11ee-0a80-00e1002c36ed": {
       "name": "Дарксайд Экспириенс - Granade arcade (йогурт, гранат), 120 гр (м) !",
-      "price_rub": 900.0,
+      "price_rub": 345.76,
       "category": "Распродажа. Табак для кальяна (2)"
     },
     "f3bb6157-edcf-11ef-0a80-1637000747d8": {
       "name": "Душа Mono - Base (Табачный лист), 25 гр (м)",
-      "price_rub": 170.0,
+      "price_rub": 111.67,
       "category": "Распродажа. Табак для кальяна (2)"
     },
     "688bfdca-71ab-11ef-0a80-084600099b9e": {
       "name": "Душа Mono - Guave (экзотический фрукт), 25 гр (м)",
-      "price_rub": 220.0,
+      "price_rub": 111.67,
       "category": "Распродажа. Табак для кальяна (2)"
     },
     "39f3751d-9882-11f0-0a80-15f7001249fb": {
       "name": "НАШ Black - Гвоздика, 40 гр (м)",
-      "price_rub": 153.0,
+      "price_rub": 152.76,
       "category": "Распродажа. Табак для кальяна (2)"
     },
     "0a573a3e-d75c-11f0-0a80-007e000f15de": {
       "name": "НАШ Black - Укроп, 40 гр (м)",
-      "price_rub": 153.0,
+      "price_rub": 152.76,
       "category": "Распродажа. Табак для кальяна (2)"
     },
     "483ed3fe-d75c-11f0-0a80-1662000e8107": {
       "name": "НАШ Black - Хреновуха, 40 гр (м)",
-      "price_rub": 153.0,
+      "price_rub": 152.76,
       "category": "Распродажа. Табак для кальяна (2)"
     },
     "9633455c-ab4d-11f0-0a80-1464000d1fb0": {
       "name": "НАШ White - Кашмир гуава, 40 гр (м)",
-      "price_rub": 152.0,
+      "price_rub": 152.76,
       "category": "Распродажа. Табак для кальяна (2)"
     },
     "7669f2a4-6b81-11f0-0a80-0b160026fe91": {
       "name": "Хулиган - BOSS (Цветочный виски), 25 гр (м)",
-      "price_rub": 185.0,
+      "price_rub": 111.67,
       "category": "Распродажа. Табак для кальяна (2)"
     }
   },
