@@ -1,19 +1,9 @@
 {
   "initialized": true,
   "products": {
-    "e5c635b8-5b06-11f0-0a80-0dc80027b042": {
-      "name": "Hypreme Special - Froig, 200 гр (м)",
-      "price_rub": 10.0,
-      "category": "Распродажа. Табак для кальяна (1)"
-    },
     "ce2570b1-5b05-11f0-0a80-05a90027fca1": {
       "name": "Hypreme Special - Hustla, 200 гр (м)",
-      "price_rub": 10.0,
-      "category": "Распродажа. Табак для кальяна (1)"
-    },
-    "e947e7b0-5b06-11f0-0a80-0dc80027b133": {
-      "name": "Hypreme Special - Jaku, 200 гр (м)",
-      "price_rub": 10.0,
+      "price_rub": 900.0,
       "category": "Распродажа. Табак для кальяна (1)"
     },
     "11b334ac-a451-11f0-0a80-03c300278ad7": {
@@ -58,12 +48,12 @@
     },
     "e54ebdd3-d5de-11ec-0a80-041d000e6a12": {
       "name": "Spectrum Hard - Current crush (черная смородина), 200 гр (м)",
-      "price_rub": 15.0,
+      "price_rub": 10.5,
       "category": "Распродажа. Табак для кальяна (1)"
     },
     "308b9ed7-d5df-11ec-0a80-0c7b000e33b6": {
       "name": "Spectrum Hard - Fire wine (пряное вино), 200 гр (м)",
-      "price_rub": 15.0,
+      "price_rub": 10.5,
       "category": "Распродажа. Табак для кальяна (1)"
     },
     "d0be2613-fb7a-11f0-0a80-14bb000ee3d3": {
@@ -159,11 +149,6 @@
     "095385ea-4d19-11f0-0a80-18880012ba4e": {
       "name": "JENT - Blue Hawaii (Голубые Гавайи), 25 гр (м)",
       "price_rub": 114.82,
-      "category": "Распродажа. Табак для кальяна (2)"
-    },
-    "c7a810c9-0331-11f0-0a80-15d500339c1d": {
-      "name": "Jent Cigar - Манго - абрикос, 20 гр (м)",
-      "price_rub": 89.54,
       "category": "Распродажа. Табак для кальяна (2)"
     },
     "510a361f-a32b-11ef-0a80-107c000913e3": {
